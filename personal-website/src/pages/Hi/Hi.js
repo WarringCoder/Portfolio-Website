@@ -1,16 +1,13 @@
 import React from 'react'
-import Navbar from '../../components/Navbar'
-import Skills from '../Skills/Skills'
-import About from '../About/About'
+import './Hi.css'
+import Cv from '../../images/cv.png'
+
 function Hi() {
   return (
     <>
-        <Navbar></Navbar>
-        <div>Hi</div>
-        <About></About>
-        <Skills></Skills>
+        <img className='cv' src={Cv} alt="cv" />
+        
     </>
-    
   )
 }
 
