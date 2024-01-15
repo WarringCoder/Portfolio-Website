@@ -1,11 +1,16 @@
 import React from 'react';
 import {NavLink} from "react-router-dom";
 import './Navbar.css';
-import night from '../images/Night.png'
+import night from '../images/Night.png';
+import CvIcon from '../images/cv.png'
+import Cv from '../pdf/Cv.pdf'
 
 function Navbar() {
   return (
     <>
+        <a href={Cv} download={Cv}>
+            <img className='cv' src={CvIcon} alt="cv" />
+        </a>
         <div className='NavbarContainer'>
             <div className="Navbar">
                 <ul>

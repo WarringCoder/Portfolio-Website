@@ -4,33 +4,97 @@
     height: 100vh;
 }
 
-.cv
+.home-container
 {
-    width: 2.625rem;
-    height: 2.625rem;
-    position: absolute;
-    top: 2.9rem;
-    left: 5rem; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 7.1rem;
 }
 
-.cv:hover
+.Social-Media-Container :nth-child(1) div
 {
-    animation: cv 2.7s infinite;
-    cursor:pointer;
-    
+    border-radius: 0rem 0.4375rem 0rem 0rem;
 }
 
-@keyframes cv
+.Social-Media-Container :nth-child(4) div 
 {
-    0%{transform: translate(0rem, 0);}
-    10%{transform: translate(0.07rem, 0.05rem);}
-    20%{transform: translate(-0.07rem, -0.05rem);}
-    30%{transform: translate(0.07rem, 0.05rem);}
-    40%{transform: translate(-0.07rem, -0.05rem);}
-    50%{transform: translate(0.07rem, 0.05rem);}
-    60%{transform: translate(-0.07rem, -0.05rem);}
-    70%{transform: translate(0.07rem, 0.05rem);}
-    80%{transform: translate(-0.07rem, -0.05rem);}
-    90%{transform: translate(0.07rem, 0.05rem);}
-    100%{transform: translate(0rem, 0);}
+    border-radius: 0rem  0rem 0.4375rem 0rem;
 }
+
+
+.Social-Media-Box
+{
+    width: 3.8125rem;
+    height: 3.8125rem;
+    border-bottom: 0.065rem solid #f5f5f5a7;
+    background: #251e3e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.2s;
+}
+
+.Social-Media-Box:hover
+{
+    opacity: 0.73;
+    cursor: pointer;
+}
+
+.Social-Media-Box i
+{
+    font-size: 1.9rem;
+}
+
+.Social-Media-Box img
+{
+    width: 1.87rem;
+    opacity: 0.9;
+}
+
+.introducing-personal
+{
+    width: 30.57719rem;
+    height: 12.77019rem;
+    margin-bottom: 5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding-left: 2rem;
+}
+
+.introducing-personal :nth-child(1)
+{
+    font-family: 'Exo 2';
+    font-size: 3.125rem;
+    font-style: italic;
+    font-weight: 500;
+    line-height: normal;
+    color: #000000;
+    margin: 0;
+    z-index: 123;
+}
+
+.introducing-personal :nth-child(2)
+{
+    font-family: Darker Grotesque;
+    font-size: 1.1875rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    color: #000000;
+}
+
+.portfolio-picture
+{
+    width: 19.9375rem;
+    height: 19.625rem;
+    border-radius: 50%;
+    border: 0.1rem solid #251E3E;
+    margin-right: 4.1em;
+    background-image: url('../../images/portfolio-picture.png');
+    background-position: center;
+    background-size: cover;
+}
+
+

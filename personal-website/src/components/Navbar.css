@@ -93,4 +93,36 @@
     opacity: 0.9;
 }
 
+.cv
+{
+    width: 2.625rem;
+    height: 2.625rem;
+    position: absolute;
+    top: 2.9rem;
+    left: 5rem; 
+}
+
+.cv:hover
+{
+    animation: cv 2.7s infinite;
+    cursor:pointer;
+    
+}
+
+@keyframes cv
+{
+    0%{transform: translate(0rem, 0);}
+    10%{transform: translate(0.07rem, 0.05rem);}
+    20%{transform: translate(-0.07rem, -0.05rem);}
+    30%{transform: translate(0.07rem, 0.05rem);}
+    40%{transform: translate(-0.07rem, -0.05rem);}
+    50%{transform: translate(0.07rem, 0.05rem);}
+    60%{transform: translate(-0.07rem, -0.05rem);}
+    70%{transform: translate(0.07rem, 0.05rem);}
+    80%{transform: translate(-0.07rem, -0.05rem);}
+    90%{transform: translate(0.07rem, 0.05rem);}
+    100%{transform: translate(0rem, 0);}
+}
+
+
 
