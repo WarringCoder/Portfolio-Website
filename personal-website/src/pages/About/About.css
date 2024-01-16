@@ -1,4 +1,97 @@
-.About
+.About-Container
 {
+    background-color: #EEEEEE;
     height: 100vh;
 }
+
+.title-about
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.8rem;
+    padding-bottom: 3rem;
+}
+
+.title-about :nth-child(1)
+{
+    color: #000000;
+    text-align: center;
+    font-family: "Exo 2";
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+}
+
+.title-about :nth-child(2)
+{
+    width: 3rem;
+    height: 0.3rem;
+    background: #251E3E;
+} 
+
+.content-about
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top:11rem ;
+}
+
+.content-about p
+{
+    margin: 0;
+    width: 56.9375rem;
+    text-align: center;
+    font-family: Darker Grotesque;
+    font-size: 1.1875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.button-group
+{
+    padding-top: 4rem;
+    display: flex;
+    gap: 3rem;
+}
+
+.button-group a
+{
+    text-decoration: none;
+}
+
+.about-button
+{
+    width: 11.875rem;
+    height: 3.5rem;
+    border-radius: 0.4375rem;
+    border: 2.1px solid #251E3E;
+    background: #251E3E;
+    color: #FFFFFF;
+    font-family: Darker Grotesque;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 0.15rem;
+    transition: 0.2s;
+}
+
+.about-button:hover
+{
+    background-color: inherit;
+    color: #251E3E;
+    box-shadow: 0 0 0.4rem #4130796b;
+    cursor: pointer;
+}
+
+

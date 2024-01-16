@@ -1,15 +1,10 @@
-.Full-Container
-{
-    background-color: #EEEEEE;
-    height: 100vh;
-}
-
 .home-container
 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 7.1rem;
+    height: 100vh;
+    background-color: #EEEEEE;
 }
 
 .Social-Media-Container :nth-child(1) div
@@ -37,7 +32,7 @@
 
 .Social-Media-Box:hover
 {
-    opacity: 0.73;
+    opacity: 0.7;
     cursor: pointer;
 }
 

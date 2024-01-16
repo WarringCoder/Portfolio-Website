@@ -7,6 +7,7 @@
     cursive;
 */
 
+
 .active
 {
     border-radius: 2.125rem !important;
@@ -14,6 +15,11 @@
     color: #ffffffca !important;
     padding: 0.21rem 1.5rem !important;
     transition: 0.2s;
+}
+
+.Full-Navbar-Container
+{
+    position: absolute;
 }
 
 .NavbarContainer
@@ -29,6 +35,7 @@
 {
     width: 50.8125rem;
     height: 2.25rem;
+    padding-left: 3rem;
 }
 
 .NavbarContainer .Navbar ul
