@@ -1,6 +1,6 @@
 import './App.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Navbar from './components/Navbar'
+
 
 
 // pages
@@ -10,6 +10,7 @@ import Skills from './pages/Skills/Skills';
 import Projects from './pages/Projects/Projects';
 import LifeCycle from './pages/LifeCycle/LifeCycle';
 import Contact from './pages/Contact/Contact';
+import Certificate from './pages/Certificate/Certificate';
 
 
 
@@ -18,7 +19,6 @@ function App() {
   return (
     <BrowserRouter>
       <div className='Full-Container'>
-        <Navbar></Navbar>
         <Routes>
           <Route path='/' element={<Hi/>}/>
           <Route path='/about' element={<About />}/>
@@ -26,6 +26,9 @@ function App() {
           <Route path='/projects' element={<Projects />}/>
           <Route path='/lifeCycle' element={<LifeCycle />}/>
           <Route path='/contact' element={<Contact />}/>
+        </Routes>
+        <Routes>
+          <Route path='/about/certificate' element={<Certificate/>}/>
         </Routes>
       </div>
     </BrowserRouter>

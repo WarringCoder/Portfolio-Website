@@ -1,8 +1,12 @@
 import React from 'react'
+import Navbar from '../../components/Navbar'
 
 function LifeCycle() {
   return (
-    <div>LifeCycle</div>
+    <>
+      <Navbar></Navbar>
+      <div>LifeCycle</div>
+    </>
   )
 }
 

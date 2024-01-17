@@ -4,7 +4,7 @@
     height: 100vh;
 }
 
-.title-about
+.title
 {
     display: flex;
     flex-direction: column;
@@ -14,7 +14,7 @@
     padding-bottom: 3rem;
 }
 
-.title-about :nth-child(1)
+.title :nth-child(1)
 {
     color: #000000;
     text-align: center;
@@ -26,7 +26,7 @@
     margin: 0;
 }
 
-.title-about :nth-child(2)
+.title :nth-child(2)
 {
     width: 3rem;
     height: 0.3rem;

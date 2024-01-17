@@ -1,0 +1,88 @@
+.Full-Container
+{
+    background-color: #EEEEEE;
+    height: 100vh;
+}
+
+.button-container
+{
+    display: flex;
+    justify-content: center;
+}
+
+.button-container a
+{
+    text-decoration: none;
+}
+
+.Come-Back-Button
+{
+
+    margin-top:3.1rem;
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    border: 2.1px solid #251E3E;
+    background: #251E3E;
+    color: #FFFFFF;
+    font-family: Darker Grotesque;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 0.15rem;
+    transition: 0.2s;
+}
+
+.Come-Back-Button:hover
+{
+    background-color: inherit;
+    color: #251E3E;
+    box-shadow: 0 0 0.4rem #4130796b;
+    cursor: pointer;
+}
+
+.Certificate-Container
+{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    gap: 5rem;
+    margin-top: 4.8rem;
+    margin-left: 6rem;
+}
+
+.Certificate-Container .Certificate img
+{
+    width: 8.625rem;
+    height: 8.625rem;
+    opacity: 0.95;
+} 
+
+.Certificate-Container .Certificate
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Certificate-Container .Certificate div
+{
+    text-align: center;
+    margin-top: 0.88rem;
+}
+.Certificate-Container .Certificate p
+{
+    color: #000000;
+    font-family: Darker Grotesque;
+    font-size: 0.8rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 0;
+    margin-bottom: 0.2rem;
+}

@@ -4,11 +4,13 @@ import linkedin from '../../images/linkedin.png'
 import instagram from '../../images/instagram.png'
 import email from '../../images/email.png'
 import {NavLink} from "react-router-dom";
+import Navbar from '../../components/Navbar'
 
 
 function Hi() {
   return (
     <>
+        <Navbar></Navbar>
         <div className="home-container">
             <div className="Social-Media-Container">
                 <a href='https://github.com/WarringCoder' target="_blank" rel="noopener noreferrer">

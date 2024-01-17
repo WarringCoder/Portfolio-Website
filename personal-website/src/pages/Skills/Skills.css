@@ -1,0 +1,215 @@
+
+.skills-container-1
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16.8rem;
+    height: 100vh;
+}
+
+.skill-container
+{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1.69rem;
+    flex-wrap: wrap;
+    padding: 0rem 2.5rem;
+    margin-top: 2.5rem;
+    margin-left: 1.13rem;
+}
+
+.skill-container img
+{
+    width: 2.3em;
+    height: 2.3rem;
+    opacity: 0.9;
+}
+
+.skill-container :nth-child(4)
+{
+    opacity: 0.85;
+}
+
+.inventory
+{
+    width: 21.625rem;
+    height: 22.75rem;
+    border-radius: 1.3125rem;
+    background: #CCCCCC;
+    box-shadow: -3px -3px 9px 1px rgba(0, 0, 0, 0.13) inset, 3px 3px 9px 1px rgba(0, 0, 0, 0.13) inset;
+    z-index: 999;
+    margin-top: 4rem;
+}
+
+.skill-title
+{
+    color: #000000;
+    font-family: The Girl Next Door;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.0525rem;
+    text-align: center;
+    padding-top: 0.34rem;
+}
+
+.learning
+{
+        width: 21.625rem;
+        height: 22.75rem;
+        border-radius: 1.3125rem;
+        background: #CCCCCC;
+        box-shadow: -3px -3px 9px 1px rgba(0, 0, 0, 0.13) inset, 3px 3px 9px 1px rgba(0, 0, 0, 0.13) inset;
+        z-index: 999;
+        margin-top: 4rem;
+}
+
+.learning .skill
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 3.1rem;
+    gap: 0.5rem;
+}
+
+.learning .skill p
+{
+    color: #0D67D2;
+    font-family: 'Exo 2';
+    font-size: 1.65rem;
+    font-style: italic;
+    font-weight: 500;
+    line-height: normal;
+    margin: 0;
+}
+
+.learning .skill img
+{
+    width: 5.35413rem;
+    height: 5.15413rem;
+}
+
+.harvest
+{
+    position: absolute;
+    right: 49.5rem;
+    top: 28rem;
+}
+
+.harvest :nth-child(1)
+{
+    position: absolute;
+    width: 14.75rem;
+    height: 17.875rem;
+    top: -15rem;
+    left: 1.99rem;
+    z-index: 899;
+}
+
+.harvest :nth-child(2)
+{
+    position: absolute;
+    width: 18.5625rem;
+    height: 9.875rem;
+}
+
+.skills-container-2
+{
+    height: 90vh;
+    background-color: #EEEEEE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7.75rem;
+    flex-direction: column;
+}
+
+.title-experience
+{
+    color: #000000;
+    font-family: 'Exo 2';
+    font-size: 3rem;
+    font-style: italic;
+    font-weight: 360;
+    line-height: normal;
+    margin: 0;
+    text-align: center;
+}
+
+.experience-container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 4rem;
+}
+
+.experience
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.25rem;
+}
+
+.experience :nth-child(2)
+{
+    color: rgba(0, 0, 0, 0.60);  
+    font-family: Exo 2;
+    font-size: 1rem;
+    font-style: italic;
+    font-weight: 300;
+    line-height: normal;
+    margin-bottom: 0;
+}
+
+.bottom-box
+{
+    width: 13rem;
+    height: 3.2rem;
+    border-radius: 0.3125rem;
+    background: rgba(255, 255, 255, 0.90);
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+    position: relative;
+}
+
+.bottom-box p
+{
+    text-align: end;
+    margin: 0;
+    padding-top: 0.62rem;
+    padding-right: 0.73rem;
+    color: rgba(0, 0, 0, 0.60);
+    font-family: Darker Grotesque;
+    font-size: 1.2000rem;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.top-box
+{
+    position: absolute;
+    width: 10.8125rem;
+    height: 3.2rem;
+    border-radius: 0.3125rem 0.375rem 0.375rem 0.3125rem;
+    background: #251E3E;
+    box-shadow: 2px 0px 3px 0px rgba(0, 0, 0, 0.25);
+    top: 0;
+}
+
+.experience-container :nth-child(3) .top-box
+{
+    width: 9.525rem;
+}
+
+.experience-container :nth-child(3) .bottom-box p
+{
+    padding-right: 1.34rem;
+}
