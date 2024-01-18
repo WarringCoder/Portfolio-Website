@@ -15,6 +15,7 @@ import GitHub from '../../images/github.png'
 import Figma from '../../images/figma.png'
 import Canva from '../../images/Canva.png'
 import ReactNative from '../../images/ReactNative.png'
+import Downarrow from '../../images/down-arrow.png'
 
 
 function Skills() {
@@ -51,6 +52,7 @@ function Skills() {
                     <p>React Native</p>
                   </div>
               </div>
+              <img className='Down-Arrow' src={Downarrow} alt="DownArrow"/>
           </div>
           <div className="skills-container-2">
               <p className='title-experience'>Tecrübe Puanlarım</p>
@@ -78,38 +80,66 @@ function Skills() {
                 </div>
                 <div className="experience">
                   <div className='bottom-box'>
-                    <p>9</p>
+                    <p>8</p>
                     <div className='top-box'></div>
                   </div>
-                  <p>HTML</p>
+                  <p>React</p>
+                </div>
+                <div className="experience">
+                  <div className='bottom-box'>
+                    <p>7</p>
+                    <div className='top-box'></div>
+                  </div>
+                  <p>Bootstrap</p>
                 </div>
                 <div className="experience">
                   <div className='bottom-box'>
                     <p>9</p>
                     <div className='top-box'></div>
                   </div>
-                  <p>HTML</p>
+                  <p>C</p>
                 </div>
                 <div className="experience">
                   <div className='bottom-box'>
-                    <p>9</p>
+                    <p>3</p>
                     <div className='top-box'></div>
                   </div>
-                  <p>HTML</p>
+                  <p>C#</p>
                 </div>
                 <div className="experience">
                   <div className='bottom-box'>
-                    <p>9</p>
+                    <p>7</p>
                     <div className='top-box'></div>
                   </div>
-                  <p>HTML</p>
+                  <p>Git</p>
                 </div>
                 <div className="experience">
                   <div className='bottom-box'>
-                    <p>9</p>
+                    <p>8</p>
                     <div className='top-box'></div>
                   </div>
-                  <p>HTML</p>
+                  <p>GitHub</p>
+                </div>
+                <div className="experience">
+                  <div className='bottom-box'>
+                    <p>7</p>
+                    <div className='top-box'></div>
+                  </div>
+                  <p>Figma</p>
+                </div>
+                <div className="experience">
+                  <div className='bottom-box'>
+                    <p>8</p>
+                    <div className='top-box'></div>
+                  </div>
+                  <p>Canva</p>
+                </div>
+                <div className="experience">
+                  <div className='bottom-box'>
+                    <p></p>
+                    <div className='top-box'></div>
+                  </div>
+                  <p>React Native</p>
                 </div>
               </div>
           </div>

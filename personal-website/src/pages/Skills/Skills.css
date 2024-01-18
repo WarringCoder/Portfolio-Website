@@ -4,7 +4,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 16.8rem;
+    gap: 20rem;
     height: 100vh;
 }
 
@@ -16,7 +16,7 @@
     gap: 1.69rem;
     flex-wrap: wrap;
     padding: 0rem 2.5rem;
-    margin-top: 2.5rem;
+    margin-top: 2rem;
     margin-left: 1.13rem;
 }
 
@@ -24,12 +24,11 @@
 {
     width: 2.3em;
     height: 2.3rem;
-    opacity: 0.9;
 }
 
 .skill-container :nth-child(4)
 {
-    opacity: 0.85;
+    opacity: 0.95;
 }
 
 .inventory
@@ -47,7 +46,7 @@
 {
     color: #000000;
     font-family: The Girl Next Door;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -104,29 +103,54 @@
 .harvest :nth-child(1)
 {
     position: absolute;
-    width: 14.75rem;
-    height: 17.875rem;
-    top: -15rem;
-    left: 1.99rem;
+    width: 21.75rem;
+    height: 23.875rem;
+    top: -20.1rem;
+    left: -1.3rem;
     z-index: 899;
 }
 
 .harvest :nth-child(2)
 {
     position: absolute;
-    width: 18.5625rem;
+    width: 22.5625rem;
     height: 9.875rem;
+    right: -20.8rem;
+}
+
+.Down-Arrow
+{
+    position: absolute;
+    width: 4rem;
+    top:40rem;
+    animation: downarrow 7s infinite;
+}
+
+@keyframes downarrow
+{
+    0%{transform: translate(0,0rem);}
+    10%{transform: translate(0,-1.5rem);}
+    20%{transform: translate(0,0rem);}
+    30%{transform: translate(0,-1.5rem);}
+    40%{transform: translate(0,0rem);}
+    50%{transform: translate(0,-1.5rem);}
+    60%{transform: translate(0,0rem);}
+    70%{transform: translate(0,-1.5rem);}
+    80%{transform: translate(0,0rem);}
+    90%{transform: translate(0,-1.5rem);}
+    100%{transform: translate(0,0rem);}
 }
 
 .skills-container-2
 {
-    height: 90vh;
+    height: 95vh;
     background-color: #EEEEEE;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 7.75rem;
     flex-direction: column;
+    padding-bottom: 5rem;
 }
 
 .title-experience
@@ -135,7 +159,7 @@
     font-family: 'Exo 2';
     font-size: 3rem;
     font-style: italic;
-    font-weight: 360;
+    font-weight: 350;
     line-height: normal;
     margin: 0;
     text-align: center;
@@ -213,3 +237,84 @@
 {
     padding-right: 1.34rem;
 }
+
+.experience-container :nth-child(4) .top-box
+{
+    width: 9.525rem;
+}
+
+.experience-container :nth-child(4) .bottom-box p
+{
+    padding-right: 1.34rem;
+}
+
+.experience-container :nth-child(5) .top-box
+{
+    width: 9rem;
+}
+
+.experience-container :nth-child(5) .bottom-box p
+{
+    padding-right: 1.64rem;
+}
+
+.experience-container :nth-child(7) .top-box
+{
+    width: 3.5rem;
+}
+
+.experience-container :nth-child(7) .bottom-box p
+{
+    padding-right: 5rem;
+}
+
+.experience-container :nth-child(8) .top-box
+{
+    width: 9rem;
+}
+
+.experience-container :nth-child(8) .bottom-box p
+{
+    padding-right: 1.64rem;
+}
+
+.experience-container :nth-child(9) .top-box
+{
+    width: 9.525rem;
+}
+
+.experience-container :nth-child(9) .bottom-box p
+{
+    padding-right: 1.34rem;
+}
+
+.experience-container :nth-child(10) .top-box
+{
+    width: 9rem;
+}
+
+.experience-container :nth-child(10) .bottom-box p
+{
+    padding-right: 1.64rem;
+}
+
+.experience-container :nth-child(11) .top-box
+{
+    width: 9.525rem;
+}
+
+.experience-container :nth-child(11) .bottom-box p
+{
+    padding-right: 1.34rem;
+}
+
+.experience-container :nth-child(12) .top-box
+{
+    width: 0rem;
+}
+
+.experience-container :nth-child(12) .bottom-box p
+{
+    padding-right: 4rem;
+}
+
