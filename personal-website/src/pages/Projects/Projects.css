@@ -1,0 +1,185 @@
+.Projects-container
+{
+    background-color: #EEEEEE;
+}
+
+.Content-container
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8.5rem 5.45rem;
+}
+
+.second-title-play
+{
+    color: #000000;
+    text-align: center;
+    font-family: 'Exo 2';
+    font-size: 1.9875rem;
+    font-style: italic;
+    font-weight: 400;
+    margin-bottom: 2.6rem;
+    margin-left: 1rem;
+}
+
+.second-title-public
+{
+    color: #000000;
+    text-align: center;
+    font-family: 'Exo 2';
+    font-size: 1.9875rem;
+    font-style: italic;
+    font-weight: 400;
+    margin-bottom: 2.6rem;
+    margin-right: 1rem;
+}
+
+.play-projects
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2.2rem;
+    margin-top: 0.5rem;
+}
+
+.public-projects
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2.2rem;
+    margin-top: 0.5rem;
+    padding-right: 1rem;
+}
+
+.public-projects a
+{
+    text-decoration: none;
+}
+
+
+.project-box
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+    width: 27.925rem;
+    height: 8.5125rem;
+    border-radius: 1.3125rem;
+    background: rgba(255, 255, 255, 0.732);
+    box-shadow: 0 0 0.75rem rgba(0, 0, 0, 0.105);
+    padding: 0.7rem 0;
+    position: relative;
+    transition: 0.4s;
+    border: solid 0.1rem #EEEEEE;
+}
+
+.project-box:hover
+{
+    box-shadow: 0 0 0.65rem  #2091936c;
+    transform: scale(1.02,1.02);
+    border: solid 0.1rem #25aaacec ;
+}
+
+.stars-container-play
+{
+    position: absolute;
+    top: 0.8rem;
+    right: 0.7rem;
+    
+}
+
+.stars-container-play :nth-child(n)
+{
+    width: 0.61rem;
+    height: 0.61rem;
+    opacity: 9;
+    margin-right: 0.2rem;
+}
+
+.stars-container-public
+{
+    position: absolute;
+    top: 0.8rem;
+    left: 1rem;
+}
+
+.stars-container-public :nth-child(n)
+{
+    width: 0.61rem;
+    height: 0.61rem;
+    opacity: 9;
+    margin-right: 0.2rem;
+}
+
+.project-box img
+{
+    width: 3.8125rem;
+    height: 3.8125rem;
+}
+
+.project-text-content
+{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    width: 17.375rem;
+    padding: 1.5rem 0 1.5rem 0;
+}
+
+.project-text-content :nth-child(1)
+{
+    margin: 0;
+    color: #000000;
+    font-family: 'Exo 2';
+    font-size: 1.46rem;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+    width: auto;
+}
+
+.project-text-content :nth-child(2)
+{
+    margin: 0;
+    color: #000;
+    font-family: Darker Grotesque;
+    font-size: 0.93rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+.line-container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 15.6rem;
+    right: 50%;
+}
+.line-container img
+{
+    margin-top: -0.2rem;
+    width: 0.9rem;
+}
+
+.public-projects :nth-child(4) :nth-child(2) :nth-child(1)
+{
+   margin-left: 2rem;
+}
+
+.rotate
+{
+    transform: rotateY(180deg);
+}
