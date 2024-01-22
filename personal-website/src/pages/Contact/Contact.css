@@ -1,0 +1,211 @@
+
+.Contact-Container
+{
+    padding-top: 11rem;
+    background-color: #EEEEEE;
+}
+
+.Contact-Container form
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2.3rem;
+}
+
+.Contact-Container form div
+{
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+}
+
+.Contact-Container form div label
+{
+    color: rgba(0, 0, 0, 0.80);
+    font-family: 'Exo 2';
+    font-size: 1.2500rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 0.15rem;
+}
+
+.Contact-Container form div input
+{
+    width: 39rem;
+    height: 2.625rem;
+    border-radius: 0.1875rem;
+    border: 0.1rem solid rgba(0, 0, 0, 0.204);
+    background: #FFFFFF;
+    padding-left: 0.8rem;
+}
+
+.Contact-Container form div input::placeholder
+{
+    font-size: 0.70rem;
+    opacity: 0.34;
+}
+
+form :nth-child(3) textarea
+{
+    width: 39rem;
+    height: 13.5rem;
+    border-radius: 0.1875rem;
+    border: 0.1rem solid rgba(0, 0, 0, 0.204);
+    background: #FFFFFF;
+    padding-left: 0.8rem;
+    padding-top: 1rem;
+}
+
+.Contact-Container form div textarea::placeholder
+{
+    font-size: 0.60rem;
+    opacity: 0.34;
+}
+
+.Contact-Container form div textarea:focus
+{
+    outline: none;
+    border: 0.1rem solid #29A8AB;
+    box-shadow: 0 0 0.2rem #29A8AB;
+   
+}
+
+.Contact-Container form button
+{
+    width: 11.875rem;
+    height: 3.5rem;
+    border-radius: 0.4375rem;
+    border: 2.1px solid #29A8AB;
+    background: #29A8AB;
+    color: #FFFFFF;
+    font-family: Darker Grotesque;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 0.15rem;
+    transition: 0.2s;
+}
+
+.Contact-Container form button:hover
+{
+    background-color: inherit;
+    color: #29A8AB;
+    box-shadow: 0 0 0.4rem #4130796b;
+    cursor: pointer;
+}
+
+.contact-border
+{
+    background-color: #29A8AB !important;
+}
+
+.Contact-Container form div input:focus
+{
+    outline: none;
+    border: 0.1rem solid #29A8AB;
+    box-shadow: 0 0 0.2rem #29A8AB;
+   
+}
+
+
+.Contact-Container footer
+{
+    height: 18.125rem;
+    background: #251E3E;
+    margin-top: 11rem;
+    position: relative;
+}
+
+.Contact-Container footer .second1
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32rem;
+    padding-top: 2.6rem;
+}
+
+.motivation
+{
+    color: #FFF;
+    font-family: The Girl Next Door;
+    font-size: 1.0625rem;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.07438rem;
+    padding-top: 1rem;
+}
+
+.social-media
+{
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    flex-direction: column;
+    gap: 1.1rem;
+}
+
+.social-media :nth-child(1)
+{
+    color: #FFFFFF;
+    font-family: 'Exo 2';
+    font-size: 1.75rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 0;
+}
+
+.social-media-icon
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding-left: 0.18rem;
+}
+
+.social-media-icon img
+{
+    width: 1.34rem;
+    height: 1.34rem;
+}
+
+.footer-border
+{
+    width: 71.875rem;
+    height: 0.01875rem;
+    background: rgba(255, 255, 255, 0.85);
+    position: absolute;
+    left: 3.28rem;
+    bottom: 7rem;
+}
+
+.producer
+{
+    color: #FFFFFF;
+    font-family: Darker Grotesque;
+    font-size: 0.9rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    opacity: 0.9;
+    text-align: center;
+    margin-top: 6.4rem;
+}
+
+.producer span
+{
+    margin-left: 0.2rem;
+}
+a{
+    height: 1.3rem;
+}
+

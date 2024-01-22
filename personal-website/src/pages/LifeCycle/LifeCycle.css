@@ -1,0 +1,51 @@
+.LifeCycle
+{
+    height: 87vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7rem;
+    padding-top: 5rem;
+}
+
+.LifeCycle :nth-child(1)
+{
+    width: 14rem;
+    height: 26.65981rem;
+}
+
+.LifeCycle :nth-child(2)
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 0rem;
+    margin-top: 3.3rem;
+}
+
+.LifeCycle :nth-child(2) :nth-child(1)
+{
+    width: 8.375rem;
+    height: 8.375rem;
+    animation: lifecycle 6s infinite alternate;
+}
+
+@keyframes lifecycle
+{
+    to{transform: rotate(0deg);}
+    from{transform: rotate(360deg);}
+}
+
+
+.LifeCycle :nth-child(2) :nth-child(2)
+{
+    color: black;
+    font-family: 'Exo 2';
+    font-size: 2.825rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 0.13125rem;
+    padding-left: 2.8rem;
+}
