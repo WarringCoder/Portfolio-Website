@@ -24,9 +24,14 @@ function Projects() {
     <>
       <Navbar></Navbar>
       <div className='Projects-container'>
-          <div className="Content-container">
+          <div className="Content-container">  
             <div className="play-projects">
               <p className='second-title-play'>Oyun</p>
+              <a 
+               href='https://warringcoder.github.io/JavaScript/Medium_Project/Music_Player/index.html' 
+               target="_blank" 
+               rel="noopener noreferrer"
+               >
               <div className="project-box">
                 <div className="stars-container-play">
                   <img src={star} alt="star" />
@@ -39,6 +44,12 @@ function Projects() {
                   <p>Hafızanıza güveniyor musunuz? Öyleyse bu oyun tam size göre. Seviye atladıkça daha zor bir oyun sizi bekliyor.</p>
                 </div>
               </div>
+              </a>
+              <a 
+               href='https://warringcoder.github.io/JavaScript/Medium_Project/Music_Player/index.html' 
+               target="_blank" 
+               rel="noopener noreferrer"
+               >
               <div className="project-box">
                 <div className="stars-container-play">
                   <img src={star} alt="star" />
@@ -51,6 +62,12 @@ function Projects() {
                   <p>Kendini test etmek ister misin?  İstediğin kategoriyi seç ve kendini bilgi fırtınasının içine at.</p>
                 </div>
               </div>
+              </a>
+              <a 
+               href='https://warringcoder.github.io/JavaScript/Medium_Project/Music_Player/index.html' 
+               target="_blank" 
+               rel="noopener noreferrer"
+               >
               <div className="project-box">
                 <div className="stars-container-play">
                   <img src={star} alt="star" />
@@ -63,6 +80,12 @@ function Projects() {
                   <p>İha’ nın kontrolünü ele almak ister misin? Peki ne kadar havada tutabilirsin onu? Hemen dene ve öğren!</p>
                 </div>
               </div>
+              </a>
+              <a 
+               href='https://warringcoder.github.io/JavaScript/Medium_Project/Music_Player/index.html' 
+               target="_blank" 
+               rel="noopener noreferrer"
+               >
               <div className="project-box">
                     <div className="stars-container-play">
                          <img src={star} alt="star" />
@@ -75,6 +98,7 @@ function Projects() {
                          <p>Detaylar Yakında...</p>
                     </div>
               </div>
+              </a>
             </div>
             <div className="line-container">
               <img src={Line1} alt="Line" />
@@ -88,6 +112,11 @@ function Projects() {
             </div>
             <div className="public-projects">
               <p className='second-title-public'>Genel</p>
+              <a 
+               href='https://warringcoder.github.io/JavaScript/Medium_Project/Music_Player/index.html' 
+               target="_blank" 
+               rel="noopener noreferrer"
+               >
               <div className="project-box">
                     <div className="stars-container-public">
                          <img src={star} alt="star" />
@@ -100,6 +129,12 @@ function Projects() {
                     </div>
                     <img className='rotate' src={horse} alt="memory_game" />
               </div>
+              </a>
+              <a 
+               href='https://warringcoder.github.io/JavaScript/Medium_Project/Music_Player/index.html' 
+               target="_blank" 
+               rel="noopener noreferrer"
+               >
               <div className="project-box">
                     <div className="stars-container-public">
                          <img src={star} alt="star" />
@@ -112,6 +147,12 @@ function Projects() {
                     </div>
                     <img className='rotate' src={shopping} alt="memory_game" />
               </div>
+              </a>
+              <a 
+               href='https://warringcoder.github.io/JavaScript/Medium_Project/Music_Player/index.html' 
+               target="_blank" 
+               rel="noopener noreferrer"
+               >
               <div className="project-box">
                     <div className="stars-container-public">
                          <img src={star} alt="star" />
@@ -124,8 +165,10 @@ function Projects() {
                     </div>
                     <img src={javascript} alt="memory_game" />
               </div>
+              </a>
               <a 
-               href='https://warringcoder.github.io/JavaScript/Medium_Project/Music_Player/index.html' target="_blank" 
+               href='https://warringcoder.github.io/JavaScript/Medium_Project/Music_Player/index.html' 
+               target="_blank" 
                rel="noopener noreferrer"
                >
                     <div className="project-box">

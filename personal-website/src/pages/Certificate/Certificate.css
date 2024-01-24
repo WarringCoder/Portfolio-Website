@@ -2,6 +2,9 @@
 {
     background-color: #EEEEEE;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 8.7rem;
 }
 
 .button-container
@@ -68,12 +71,22 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    transition: 0.3s;
+}
+
+.Certificate-Container .Certificate:hover
+{
+    opacity: 0.81;
+    transform: scale(1.1);
+
 }
 
 .Certificate-Container .Certificate div
 {
     text-align: center;
-    margin-top: 0.88rem;
+    height: 3rem;
+    margin-top: -0.4rem;
+    padding-top: 1rem;
 }
 .Certificate-Container .Certificate p
 {

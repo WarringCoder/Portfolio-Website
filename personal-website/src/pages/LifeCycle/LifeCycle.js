@@ -8,7 +8,7 @@ function LifeCycle() {
   return (
     <>
       <Navbar></Navbar>
-      <div LifeCycle-Container>
+      <div>
           <div className="LifeCycle">
                <img src={worker} alt="worker" />
                <div>

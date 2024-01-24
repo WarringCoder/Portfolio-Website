@@ -172,6 +172,7 @@
     align-items: center;
     flex-wrap: wrap;
     gap: 4rem;
+    width: 62.5rem;
 }
 
 .experience
@@ -181,13 +182,14 @@
     justify-content: center;
     align-items: center;
     gap: 0.25rem;
+    margin-right: 1rem;
 }
 
 .experience :nth-child(2)
 {
     color: rgba(0, 0, 0, 0.60);  
     font-family: Exo 2;
-    font-size: 1rem;
+    font-size: 0.81rem;
     font-style: italic;
     font-weight: 300;
     line-height: normal;
@@ -196,7 +198,7 @@
 
 .bottom-box
 {
-    width: 13rem;
+    width: 10rem;
     height: 3.2rem;
     border-radius: 0.3125rem;
     background: rgba(255, 255, 255, 0.90);
@@ -208,11 +210,11 @@
 {
     text-align: end;
     margin: 0;
-    padding-top: 0.62rem;
-    padding-right: 0.73rem;
+    padding-top: 0.81rem;
+    padding-right: 0.77rem;
     color: rgba(0, 0, 0, 0.60);
     font-family: Darker Grotesque;
-    font-size: 1.2000rem;
+    font-size: 1rem;
     font-style: normal;
     font-weight: 500;
 }
@@ -220,7 +222,7 @@
 .top-box
 {
     position: absolute;
-    width: 10.8125rem;
+    width: 7.8125rem;
     height: 3.2rem;
     border-radius: 0.3125rem 0.375rem 0.375rem 0.3125rem;
     background: #251E3E;
@@ -230,7 +232,7 @@
 
 .experience-container :nth-child(3) .top-box
 {
-    width: 9.525rem;
+    width: 6.525rem;
 }
 
 .experience-container :nth-child(3) .bottom-box p
@@ -240,7 +242,7 @@
 
 .experience-container :nth-child(4) .top-box
 {
-    width: 9.525rem;
+    width: 6.525rem;
 }
 
 .experience-container :nth-child(4) .bottom-box p
@@ -250,7 +252,7 @@
 
 .experience-container :nth-child(5) .top-box
 {
-    width: 9rem;
+    width: 6rem;
 }
 
 .experience-container :nth-child(5) .bottom-box p
@@ -260,17 +262,17 @@
 
 .experience-container :nth-child(7) .top-box
 {
-    width: 3.5rem;
+    width: 3rem;
 }
 
 .experience-container :nth-child(7) .bottom-box p
 {
-    padding-right: 5rem;
+    padding-right: 3.5rem;
 }
 
 .experience-container :nth-child(8) .top-box
 {
-    width: 9rem;
+    width: 6rem;
 }
 
 .experience-container :nth-child(8) .bottom-box p
@@ -280,7 +282,7 @@
 
 .experience-container :nth-child(9) .top-box
 {
-    width: 9.525rem;
+    width: 6.525rem;
 }
 
 .experience-container :nth-child(9) .bottom-box p
@@ -290,7 +292,7 @@
 
 .experience-container :nth-child(10) .top-box
 {
-    width: 9rem;
+    width: 6rem;
 }
 
 .experience-container :nth-child(10) .bottom-box p
@@ -300,7 +302,7 @@
 
 .experience-container :nth-child(11) .top-box
 {
-    width: 9.525rem;
+    width: 6.525rem;
 }
 
 .experience-container :nth-child(11) .bottom-box p
