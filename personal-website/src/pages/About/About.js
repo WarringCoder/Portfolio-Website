@@ -2,11 +2,13 @@ import React from 'react'
 import './About.css'
 import Navbar from '../../components/Navbar';
 import {NavLink, Link} from "react-router-dom";
+import DarkMode from '../../components/DarkMode';
 
 function About() {
   return (
     <>
         <Navbar></Navbar>
+        <DarkMode></DarkMode>
         <div className='About-Container'>
             <div className="content-about">
                 <div className="title">

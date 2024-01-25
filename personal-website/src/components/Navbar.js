@@ -1,48 +1,68 @@
-import React from 'react';
-import {NavLink} from "react-router-dom";
+import React, { useState, useEffect } from 'react';
+import { NavLink } from 'react-router-dom';
 import './Navbar.css';
-import night from '../images/Night.png';
-import CvIcon from '../images/cv.png';
-import Cv from '../pdf/Cv.pdf';
-
-
 
 function Navbar() {
-    
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const isScrolled = window.scrollY > 40;
+      setScrolled(isScrolled);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
+  function handleLinkClick()
+  {
+    window.scrollTo(0, 0);
+  };
+
   return (
-    <>
-        <div className="Full-Navbar-Container">
-            <a href={Cv} download={Cv}>
-                <img className='cv' src={CvIcon} alt="cv" />
-            </a>
-            <div className='NavbarContainer'>
-                <div className="Navbar">
-                    <ul>
-                        <li>
-                            <NavLink to='/'><p>Merhaba!</p></NavLink>
-                        </li>
-                        <li>
-                            <NavLink to='/about'><p>Hakkımda</p></NavLink>
-                        </li>
-                        <li>
-                            <NavLink to='/skills'><p>Yeteneklerim</p></NavLink>
-                        </li>
-                        <li>
-                            <NavLink to='/projects'><p>Projelerim</p></NavLink>
-                        </li>
-                        <li>
-                            <NavLink to='/lifecycle'><p>Yaşam Döngüm</p></NavLink>
-                        </li>
-                        <li>
-                            <NavLink to='/contact'><p>İletişim</p></NavLink>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div className='Dark-Mode-Night'><img src={night} alt="night" /></div>
+    <div className="Full-Navbar-Container">
+      <div className="NavbarContainer">
+        <div className='Navbar'>
+          <ul className={`ull ${scrolled ? 'scrolled' : ''}`}>
+            <li>
+              <NavLink className="navbarlink" to="/" onClick={handleLinkClick}>
+                <p>Merhaba!</p>
+              </NavLink>
+            </li>
+            <li>
+              <NavLink className="navbarlink" to="/about" onClick={handleLinkClick}>
+                <p>Hakkımda</p>
+              </NavLink>
+            </li>
+            <li>
+              <NavLink className="navbarlink" to="/skills" onClick={handleLinkClick}>
+                <p>Yeteneklerim</p>
+              </NavLink>
+            </li>
+            <li>
+              <NavLink className="navbarlink" to="/projects" onClick={handleLinkClick}>
+                <p>Projelerim</p>
+              </NavLink>
+            </li>
+            <li>
+              <NavLink className="navbarlink" to="/lifecycle" onClick={handleLinkClick}>
+                <p>Yaşam Döngüm</p>
+              </NavLink>
+            </li>
+            <li>
+              <NavLink className="navbarlink" to="/contact" onClick={handleLinkClick}>
+                <p>İletişim</p>
+              </NavLink>
+            </li>
+          </ul>
         </div>
-    </>
-  )
+      </div>
+    </div>
+  );
 }
 
-export default Navbar
+export default Navbar;

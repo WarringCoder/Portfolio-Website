@@ -5,12 +5,14 @@ import youtube from '../../images/youtube-footer.png'
 import instagram from '../../images/instagram-footer.png'
 import linkedin from '../../images/linkedin-footer.png'
 import github from '../../images/github-footer.png'
+import DarkMode from '../../components/DarkMode'
 
 function Contact() {
      const year = new Date().getFullYear();
   return (
     <>
       <Navbar></Navbar>
+      <DarkMode></DarkMode>
       <div className='Contact-Container'>
           <div className="title">
                <p>İLETİŞİM</p>

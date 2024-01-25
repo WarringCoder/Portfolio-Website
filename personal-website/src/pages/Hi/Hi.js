@@ -5,12 +5,16 @@ import instagram from '../../images/instagram.png'
 import email from '../../images/email.png'
 import {NavLink} from "react-router-dom";
 import Navbar from '../../components/Navbar'
+import DarkMode from '../../components/DarkMode'
+import CvIcon from '../../components/CvIcon'
 
 
 function Hi() {
   return (
     <>
         <Navbar></Navbar>
+        <DarkMode></DarkMode>
+        <CvIcon></CvIcon>
         <div className="home-container">
             <div className="Social-Media-Container">
                 <a href='https://github.com/WarringCoder' target="_blank" rel="noopener noreferrer">

@@ -17,12 +17,14 @@ import shopping from '../../images/shopping-cart.png'
 import javascript from '../../images/JavaScript.png'
 import music from '../../images/music4.png'
 import space from '../../images/galaxy.png'
+import DarkMode from '../../components/DarkMode'
 
 
 function Projects() {
   return (
     <>
       <Navbar></Navbar>
+      <DarkMode></DarkMode>
       <div className='Projects-container'>
           <div className="Content-container">  
             <div className="play-projects">

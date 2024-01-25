@@ -5,6 +5,7 @@
     align-items: center;
     height: 100vh;
     background-color: #EEEEEE;
+    margin-top: 1.3rem;
 }
 
 .Social-Media-Container :nth-child(1) div

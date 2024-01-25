@@ -16,12 +16,14 @@ import Figma from '../../images/figma.png'
 import Canva from '../../images/Canva.png'
 import ReactNative from '../../images/ReactNative.png'
 import Downarrow from '../../images/down-arrow.png'
+import DarkMode from '../../components/DarkMode'
 
 
 function Skills() {
   return (
     <>
       <Navbar></Navbar>
+      <DarkMode></DarkMode>
       <div className='Full-Container'>
         <div className="Container">
           <div className="skills-container-1">
