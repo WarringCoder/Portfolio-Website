@@ -1,3 +1,7 @@
+.Full-Container-Skills-Night
+{
+    background: #19181B;
+}
 
 .skills-container-1
 {
@@ -41,6 +45,10 @@
     z-index: 999;
     margin-top: 4rem;
 }
+.inventory.inventory-night
+{
+    background: #8b8b8bfc;
+}
 
 .skill-title
 {
@@ -65,7 +73,10 @@
         z-index: 999;
         margin-top: 4rem;
 }
-
+.learning.learning-night
+{
+    background: #8b8b8bfc;
+}
 .learning .skill
 {
     display: flex;
@@ -151,6 +162,11 @@
     gap: 7.75rem;
     flex-direction: column;
     padding-bottom: 5rem;
+    padding-top: 3.5rem;
+}
+.skills-container-2.skills-container-2-night
+{
+    background: #19181B;
 }
 
 .title-experience
@@ -163,6 +179,10 @@
     line-height: normal;
     margin: 0;
     text-align: center;
+}
+.title-experience.title-experience-night
+{
+    color: rgba(221, 221, 221, 0.90);
 }
 
 .experience-container
@@ -185,7 +205,7 @@
     margin-right: 1rem;
 }
 
-.experience :nth-child(2)
+.experience-title
 {
     color: rgba(0, 0, 0, 0.60);  
     font-family: Exo 2;
@@ -194,6 +214,10 @@
     font-weight: 300;
     line-height: normal;
     margin-bottom: 0;
+}
+.experience-title.experience-title-night
+{
+    color: rgba(221, 221, 221, 0.60);
 }
 
 .bottom-box
@@ -228,6 +252,10 @@
     background: #251E3E;
     box-shadow: 2px 0px 3px 0px rgba(0, 0, 0, 0.25);
     top: 0;
+}
+.top-box.top-box-night
+{
+    background: #29A8AB;
 }
 
 .experience-container :nth-child(3) .top-box

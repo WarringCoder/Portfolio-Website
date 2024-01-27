@@ -17,17 +17,22 @@ import Canva from '../../images/Canva.png'
 import ReactNative from '../../images/ReactNative.png'
 import Downarrow from '../../images/down-arrow.png'
 import DarkMode from '../../components/DarkMode'
+import {useDarkMode} from '../../context/DarkModeContext'
+import CvIcon from '../../components/CvIcon'
+
 
 
 function Skills() {
+    const { darkMode, toggleDarkMode } = useDarkMode();
   return (
     <>
-      <Navbar></Navbar>
-      <DarkMode></DarkMode>
-      <div className='Full-Container'>
+      <DarkMode darkMode={darkMode} setDarkMode={toggleDarkMode}></DarkMode>
+      <Navbar darkmode={darkMode}></Navbar>
+      <CvIcon darkMode={darkMode}></CvIcon>
+      <div className={`Full-Container-Skills ${darkMode ? 'Full-Container-Skills-Night' : ''}`}>
         <div className="Container">
           <div className="skills-container-1">
-              <div className='inventory'>
+              <div className={`inventory ${darkMode ? 'inventory-night' : ''}`}>
                 <p className='skill-title'>ENVANTER</p>
                 <div className="skill-container">
                   <img src={c} alt="C" />
@@ -47,7 +52,7 @@ function Skills() {
                 <img src={farmer} alt="farmer" />
                 <img src={soil} alt="soil" />
               </div>
-              <div className="learning">
+              <div className={`learning ${darkMode ? 'learning-night' : ''}`}>
                   <p className='skill-title'>YÜKLENİYOR</p>
                   <div className="skill">
                     <img src={ReactNative} alt="ReactNative" />
@@ -56,92 +61,92 @@ function Skills() {
               </div>
               <img className='Down-Arrow' src={Downarrow} alt="DownArrow"/>
           </div>
-          <div className="skills-container-2">
-              <p className='title-experience'>Tecrübe Puanlarım</p>
+          <div className={`skills-container-2 ${darkMode ? 'skills-container-2-night' : ''}`}>
+              <p className={`title-experience ${darkMode ? 'title-experience-night' : ''}`}>Tecrübe Puanlarım</p>
               <div className="experience-container">
                 <div className="experience">
                   <div className='bottom-box'>
                     <p>9</p>
-                    <div className='top-box'></div>
+                    <div className={`top-box ${darkMode ? 'top-box-night' : ''}`}></div>
                   </div>
-                  <p>HTML</p>
+                  <p className={`experience-title ${darkMode ? 'experience-title-night' : ''}`}>HTML</p>
                 </div>
                 <div className="experience">
                   <div className='bottom-box'>
                     <p>9</p>
-                    <div className='top-box'></div>
+                    <div className={`top-box ${darkMode ? 'top-box-night' : ''}`}></div>
                   </div>
-                  <p>CSS</p>
+                  <p className={`experience-title ${darkMode ? 'experience-title-night' : ''}`}>CSS</p>
                 </div>
                 <div className="experience">
                   <div className='bottom-box'>
                     <p>8</p>
-                    <div className='top-box'></div>
+                    <div className={`top-box ${darkMode ? 'top-box-night' : ''}`}></div>
                   </div>
-                  <p>JavaScript</p>
+                  <p className={`experience-title ${darkMode ? 'experience-title-night' : ''}`}>JavaScript</p>
                 </div>
                 <div className="experience">
                   <div className='bottom-box'>
                     <p>8</p>
-                    <div className='top-box'></div>
+                    <div className={`top-box ${darkMode ? 'top-box-night' : ''}`}></div>
                   </div>
-                  <p>React</p>
+                  <p className={`experience-title ${darkMode ? 'experience-title-night' : ''}`}>React</p>
                 </div>
                 <div className="experience">
                   <div className='bottom-box'>
                     <p>7</p>
-                    <div className='top-box'></div>
+                    <div className={`top-box ${darkMode ? 'top-box-night' : ''}`}></div>
                   </div>
-                  <p>Bootstrap</p>
+                  <p className={`experience-title ${darkMode ? 'experience-title-night' : ''}`}>Bootstrap</p>
                 </div>
                 <div className="experience">
                   <div className='bottom-box'>
                     <p>9</p>
-                    <div className='top-box'></div>
+                    <div className={`top-box ${darkMode ? 'top-box-night' : ''}`}></div>
                   </div>
-                  <p>C</p>
+                  <p className={`experience-title ${darkMode ? 'experience-title-night' : ''}`}>C</p>
                 </div>
                 <div className="experience">
                   <div className='bottom-box'>
                     <p>3</p>
-                    <div className='top-box'></div>
+                    <div className={`top-box ${darkMode ? 'top-box-night' : ''}`}></div>
                   </div>
-                  <p>C#</p>
+                  <p className={`experience-title ${darkMode ? 'experience-title-night' : ''}`}>C#</p>
                 </div>
                 <div className="experience">
                   <div className='bottom-box'>
                     <p>7</p>
-                    <div className='top-box'></div>
+                    <div className={`top-box ${darkMode ? 'top-box-night' : ''}`}></div>
                   </div>
-                  <p>Git</p>
+                  <p className={`experience-title ${darkMode ? 'experience-title-night' : ''}`}>Git</p>
                 </div>
                 <div className="experience">
                   <div className='bottom-box'>
                     <p>8</p>
-                    <div className='top-box'></div>
+                    <div className={`top-box ${darkMode ? 'top-box-night' : ''}`}></div>
                   </div>
-                  <p>GitHub</p>
+                  <p className={`experience-title ${darkMode ? 'experience-title-night' : ''}`}>GitHub</p>
                 </div>
                 <div className="experience">
                   <div className='bottom-box'>
                     <p>7</p>
-                    <div className='top-box'></div>
+                    <div className={`top-box ${darkMode ? 'top-box-night' : ''}`}></div>
                   </div>
-                  <p>Figma</p>
+                  <p className={`experience-title ${darkMode ? 'experience-title-night' : ''}`}>Figma</p>
                 </div>
                 <div className="experience">
                   <div className='bottom-box'>
                     <p>8</p>
-                    <div className='top-box'></div>
+                    <div className={`top-box ${darkMode ? 'top-box-night' : ''}`}></div>
                   </div>
-                  <p>Canva</p>
+                  <p className={`experience-title ${darkMode ? 'experience-title-night' : ''}`}>Canva</p>
                 </div>
                 <div className="experience">
                   <div className='bottom-box'>
                     <p></p>
                     <div className='top-box'></div>
                   </div>
-                  <p>React Native</p>
+                  <p className={`experience-title ${darkMode ? 'experience-title-night' : ''}`}>React Native</p>
                 </div>
               </div>
           </div>

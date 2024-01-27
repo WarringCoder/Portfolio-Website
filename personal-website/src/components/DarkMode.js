@@ -1,11 +1,19 @@
-import React from 'react'
-import './DarkMode.css'
+// DarkMode.js
+import './DarkMode.css';
 import night from '../images/Night.png';
+import sun from '../images/moon.png'
 
-function DarkMode() {
+function DarkMode({ darkMode, setDarkMode}) {
+  const toggleDarkMode = () => {
+    setDarkMode(!darkMode);
+  };
+
   return (
-    <div className='Dark-Mode-Night'><img src={night} alt="night" /></div>
-  )
+    <div onClick={toggleDarkMode} className={`Dark-Mode-Night ${darkMode ? 'dark-mode-night' : ''}`}>
+      {darkMode ? '' : ''}
+      <img src={darkMode ? sun : night} alt="night" />
+    </div>
+  );
 }
 
-export default DarkMode
+export default DarkMode;

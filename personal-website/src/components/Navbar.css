@@ -11,10 +11,14 @@
 .active
 {
     border-radius: 2.125rem !important;
-    background: rgba(37, 30, 62, 0.912) !important;
+    background: rgba(37, 30, 62, 0.912);
     color: #ffffffca !important;
     padding: 0.34rem 1.5rem !important;
     transition: 0.2s;
+}
+.active.active-night
+{
+    background: rgba(37, 141, 143, 0.80);
 }
 
 .Full-Navbar-Container
@@ -61,6 +65,12 @@
     margin-top: -0.5rem;
 }
 
+.ull.scrolled.ull.scrolled-night
+{
+     background-color: #353434;
+    box-shadow: inset 0 0 0.2rem rgba(143, 143, 143, 0.828);
+}
+
 .NavbarContainer .Navbar ul li
 {     
     font-family: Darker Grotesque;
@@ -74,15 +84,20 @@
 .navbarlink
 {
     text-decoration: none;
-    color: #000000;
     padding: 0.34rem 1.5rem;
     border-radius: 2.125rem;
     display: flex;
     height: auto;
+    color: #000000;
+}
+.navbarlink.navbarlink-night
+{
+   color: #EEEEEE;
 }
 
-.navbarlink p
+.linktext
 {
-    margin: 0 0 0.065rem 0.02rem;
     
+    margin: 0 0 0.065rem 0.02rem;
 }
+

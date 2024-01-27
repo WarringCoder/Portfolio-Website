@@ -6,6 +6,10 @@
     flex-direction: column;
     gap: 8.7rem;
 }
+.Full-Container.Full-Container-Night
+{
+    background: #2D2C31;
+}
 
 .button-container
 {
@@ -39,7 +43,6 @@
     padding-bottom: 0.15rem;
     transition: 0.2s;
 }
-
 .Come-Back-Button:hover
 {
     background-color: inherit;
@@ -47,6 +50,20 @@
     box-shadow: 0 0 0.4rem #4130796b;
     cursor: pointer;
 }
+
+.Come-Back-Button.Come-Back-Button-Night
+{
+    background-color: #29A8ABB2;
+    border: 4.1px solid #1c7879a5;
+}
+.Come-Back-Button.Come-Back-Button-Night:hover
+{
+    background-color: inherit;
+    color: #29a9abef;
+    box-shadow: 0 0 0.5rem #29a9abef;
+    cursor: pointer;
+}
+
 
 .Certificate-Container
 {
@@ -88,7 +105,7 @@
     margin-top: -0.4rem;
     padding-top: 1rem;
 }
-.Certificate-Container .Certificate p
+.certificate-text
 {
     color: #000000;
     font-family: Darker Grotesque;
@@ -98,4 +115,13 @@
     line-height: normal;
     margin: 0;
     margin-bottom: 0.2rem;
+}
+.certificate-text.certificate-text-night
+{
+    color: #ffffffc1;
+}
+
+.Certificate-link-night
+{
+    text-decoration: none;
 }
