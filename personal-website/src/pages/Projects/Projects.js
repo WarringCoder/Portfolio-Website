@@ -20,6 +20,15 @@ import space from '../../images/galaxy.png'
 import DarkMode from '../../components/DarkMode'
 import {useDarkMode} from '../../context/DarkModeContext'
 import CvIcon from '../../components/CvIcon'
+import movie from '../../images/movie.png'
+import tic_tac_toe from '../../images/tic-tac-toe.png' 
+import sudoku from '../../images/sudoku.png'
+import game from '../../images/2048.png'
+import youtube_project from '../../images/youtube-projects.png'
+import snake from '../../images/snake.png'
+import instagram_project from '../../images/instagram-projects.png' 
+import twitter_project from '../../images/twitter-projects.png'
+import reactnative_project from '../../images/reactnative-project.png'
 
 
 function Projects() {
@@ -86,6 +95,42 @@ function Projects() {
                   <p>İha’ nın kontrolünü ele almak ister misin? Peki ne kadar havada tutabilirsin onu? Hemen dene ve öğren!</p>
                 </div>
               </div>
+              </a>  
+              <a 
+               href='https://warringcoder.github.io/JavaScript/Medium_Project/Music_Player/index.html' 
+               target="_blank" 
+               rel="noopener noreferrer"
+               >
+              <div className={`project-box ${darkMode  ? 'project-box-night' : ''}`}>
+                    <div className="stars-container-play">
+                         <img src={star} alt="star" />
+                         <img src={star} alt="star" />
+                         <img src={star} alt="star" />
+                    </div>
+                    <img src={tic_tac_toe} alt="memory_game" />
+                    <div className="project-text-content">
+                         <p>Tic Tac Toe</p>
+                         <p>Daha önce bu oyunu hiç oynamadıysanız şimdi tam zamanı. Bilgisayara karşı 2 kişilik oyun modu mevcutur...</p>
+                    </div>
+              </div>
+              </a>
+              <a 
+               href='https://warringcoder.github.io/JavaScript/Medium_Project/Music_Player/index.html' 
+               target="_blank" 
+               rel="noopener noreferrer"
+              >
+              <div className={`project-box ${darkMode  ? 'project-box-night' : ''}`}>
+                    <div className="stars-container-play">
+                         <img src={star} alt="star" />
+                         <img src={star} alt="star" />
+                         <img src={star} alt="star" />
+                    </div>
+                    <img src={game} alt="memory_game" />
+                    <div className="project-text-content">
+                         <p>2048</p>
+                         <p>Bu oyunda ne kadar ustasın. Harika tasarımıyla bu oyunun zevkini doruklarına kadar hissedeceksin...</p>
+                    </div>
+              </div>
               </a>
               <a 
                href='https://warringcoder.github.io/JavaScript/Medium_Project/Music_Player/index.html' 
@@ -98,10 +143,64 @@ function Projects() {
                          <img src={star} alt="star" />
                          <img src={star} alt="star" />
                     </div>
-                    <img src={space} alt="memory_game" />
+                    <img src={sudoku} alt="memory_game" />
                     <div className="project-text-content">
-                         <p>UZAY</p>
-                         <p>Detaylar Yakında...</p>
+                         <p>Sudoku</p>
+                         <p>Sudoku oyununda iyi misiniz? Hemen tıkla ve oyunun keyfini çıkar...</p>
+                    </div>
+              </div>
+              </a>
+              <a 
+               href='https://warringcoder.github.io/JavaScript/Medium_Project/Music_Player/index.html' 
+               target="_blank" 
+               rel="noopener noreferrer"
+               >
+              <div className={`project-box ${darkMode  ? 'project-box-night' : ''}`}>
+                    <div className="stars-container-play">
+                         <img src={star} alt="star" />
+                         <img src={star} alt="star" />
+                         <img src={star} alt="star" />
+                    </div>
+                    <img src={snake} alt="memory_game" />
+                    <div className="project-text-content">
+                         <p>Yılan Oyunu</p>
+                         <p>Herkesin mutlaka hayatında bir kere oynadığı yılan oyunu tarihin en iyi tasarımıyla karşınızda :)</p>
+                    </div>
+              </div>
+              </a>
+              <a 
+               href='https://warringcoder.github.io/JavaScript/Medium_Project/Music_Player/index.html' 
+               target="_blank" 
+               rel="noopener noreferrer"
+               >
+              <div className={`project-box ${darkMode  ? 'project-box-night' : ''}`}>
+                    <div className="stars-container-play">
+                         <img src={star} alt="star" />
+                         <img src={star} alt="star" />
+                         <img src={star} alt="star" />
+                    </div>
+                    <img src={reactnative_project} alt="memory_game" />
+                    <div className="project-text-content">
+                         <p>React Native Mobil</p>
+                         <p>Yakında...</p>
+                    </div>
+              </div>
+              </a>
+              <a 
+               href='https://warringcoder.github.io/JavaScript/Medium_Project/Music_Player/index.html' 
+               target="_blank" 
+               rel="noopener noreferrer"
+               >
+              <div className={`project-box ${darkMode  ? 'project-box-night' : ''}`}>
+                    <div className="stars-container-play">
+                         <img src={star} alt="star" />
+                         <img src={star} alt="star" />
+                         <img src={star} alt="star" />
+                    </div>
+                    <img src={reactnative_project} alt="memory_game" />
+                    <div className="project-text-content">
+                         <p>React Native Mobil</p>
+                         <p>Yakında...</p>
                     </div>
               </div>
               </a>
@@ -111,6 +210,15 @@ function Projects() {
               <img src={Line2} alt="Line" />
               <img src={Line3} alt="Line" />
               <img src={Line4} alt="Line" />
+              <img src={Line5} alt="Line" />
+              <img src={Line5} alt="Line" />
+              <img src={Line5} alt="Line" />
+              <img src={Line5} alt="Line" />
+              <img src={Line5} alt="Line" />
+              <img src={Line5} alt="Line" />
+              <img src={Line5} alt="Line" />
+              <img src={Line5} alt="Line" />
+              <img src={Line5} alt="Line" />
               <img src={Line5} alt="Line" />
               <img src={Line5} alt="Line" />
               <img src={Line5} alt="Line" />
@@ -148,10 +256,10 @@ function Projects() {
                          <img src={star} alt="star" />
                     </div>
                     <div className="project-text-content">
-                         <p>E-Ticaret Sitesi</p>
-                         <p>Kullanışlı ve kaliteli bir e-ticaret sitesi mi arıyorsunuz. Kullanıcı dostu arayüz... </p>
+                         <p>UZAY</p>
+                         <p>Detaylar Yakında...</p>
                     </div>
-                    <img className='rotate' src={shopping} alt="memory_game" />
+                    <img className='rotate' src={space} alt="memory_game" />
               </div>
               </a>
               <a 
@@ -188,6 +296,96 @@ function Projects() {
                               <p>Ekrana baktıkça yazılıma olan sevdanızın artacağı müzik çalar uygulamamı hemen inceleyin :] </p>
                          </div>
                          <img src={music} alt="memory_game" />
+                    </div>
+               </a>
+              <a 
+               href='https://warringcoder.github.io/JavaScript/Medium_Project/Music_Player/index.html' 
+               target="_blank" 
+               rel="noopener noreferrer"
+               >
+              <div className={`project-box ${darkMode  ? 'project-box-night' : ''}`}>
+                    <div className="stars-container-public">
+                         <img src={star} alt="star" />
+                         <img src={star} alt="star" />
+                         <img src={star} alt="star" />
+                    </div>
+                    <div className="project-text-content">
+                         <p>E-Ticaret Sitesi</p>
+                         <p>Kullanışlı ve kaliteli bir e-ticaret sitesi mi arıyorsunuz. Kullanıcı dostu arayüz... </p>
+                    </div>
+                    <img className='rotate' src={shopping} alt="memory_game" />
+              </div>
+              </a>
+               <a 
+               href='https://warringcoder.github.io/JavaScript/Medium_Project/Music_Player/index.html' 
+               target="_blank" 
+               rel="noopener noreferrer"
+               >
+                  <div className={`project-box ${darkMode  ? 'project-box-night' : ''}`}>
+                         <div className="stars-container-public">
+                              <img src={star} alt="star" />
+                              <img src={star} alt="star" />
+                              <img src={star} alt="star" />
+                         </div>
+                         <div className="project-text-content">
+                              <p>Film Kutusu </p>
+                              <p>Aradığınız filmi, destansı tasarımıyla bu sitede bulabilirsiniz. Hemen tıkla ve filmini bul!] </p>
+                         </div>
+                         <img src={movie} alt="memory_game" />
+                    </div>
+               </a>
+               <a 
+               href='https://warringcoder.github.io/JavaScript/Medium_Project/Music_Player/index.html' 
+               target="_blank" 
+               rel="noopener noreferrer"
+               >
+                  <div className={`project-box ${darkMode  ? 'project-box-night' : ''}`}>
+                         <div className="stars-container-public">
+                              <img src={star} alt="star" />
+                              <img src={star} alt="star" />
+                              <img src={star} alt="star" />
+                         </div>
+                         <div className="project-text-content">
+                              <p>Youtube Clone </p>
+                              <p>Youtube platformunu birebir clonlamakla kalmayıp daha iyisini tasarlayarak meydan okudum :) </p>
+                         </div>
+                         <img src={youtube_project} alt="memory_game" />
+                    </div>
+               </a>
+               <a 
+               href='https://warringcoder.github.io/JavaScript/Medium_Project/Music_Player/index.html' 
+               target="_blank" 
+               rel="noopener noreferrer"
+               >
+                  <div className={`project-box ${darkMode  ? 'project-box-night' : ''}`}>
+                         <div className="stars-container-public">
+                              <img src={star} alt="star" />
+                              <img src={star} alt="star" />
+                              <img src={star} alt="star" />
+                         </div>
+                         <div className="project-text-content">
+                              <p>İnstagram Clone </p>
+                              <p>İnstagram platformunu birebir clonlamakla kalmayıp daha iyisini tasarlayarak meydan okudum :) </p>
+                         </div>
+                         <img src={instagram_project} alt="memory_game" />
+                    </div>
+               </a>
+               <a 
+               href='https://warringcoder.github.io/JavaScript/Medium_Project/Music_Player/index.html' 
+               target="_blank" 
+               rel="noopener noreferrer"
+               >
+                  <div className={`project-box ${darkMode  ? 'project-box-night' : ''}`}>
+                         <div className="stars-container-public">
+                              <img src={star} alt="star" />
+                              <img src={star} alt="star" />
+                              <img src={star} alt="star" />
+                         </div>
+                         <div className="project-text-content">
+                              <p>Twitter Clone </p>
+                              <p>Twitter platformunu birebir clonlamakla kalmayıp daha iyisini tasarlayarak meydan okudum :) </p>
+                         </div>
+                         <img src={twitter_project} alt="memory_game" />
                     </div>
                </a>
             </div>
