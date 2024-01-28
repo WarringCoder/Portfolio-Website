@@ -1,11 +1,15 @@
 .LifeCycle
 {
-    height: 87vh;
+    height: 88.78vh;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 7rem;
     padding-top: 5rem;
+}
+.LifeCycle-night
+{
+    background: #19181B;
 }
 
 .LifeCycle :nth-child(1)
@@ -38,7 +42,7 @@
 }
 
 
-.LifeCycle :nth-child(2) :nth-child(2)
+.LifeCycle-text
 {
     color: black;
     font-family: 'Exo 2';
@@ -48,4 +52,9 @@
     line-height: normal;
     letter-spacing: 0.13125rem;
     padding-left: 2.8rem;
+}
+
+.LifeCycle-text-night
+{
+    color: rgba(255, 255, 255, 0.85);
 }

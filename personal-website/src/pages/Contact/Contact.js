@@ -6,34 +6,41 @@ import instagram from '../../images/instagram-footer.png'
 import linkedin from '../../images/linkedin-footer.png'
 import github from '../../images/github-footer.png'
 import DarkMode from '../../components/DarkMode'
+import {useDarkMode} from '../../context/DarkModeContext'
+import CvIcon from '../../components/CvIcon'
+
+
 
 function Contact() {
      const year = new Date().getFullYear();
+     const { darkMode, toggleDarkMode } = useDarkMode();
+
   return (
     <>
-      <Navbar></Navbar>
-      <DarkMode></DarkMode>
-      <div className='Contact-Container'>
+      <DarkMode darkMode={darkMode} setDarkMode={toggleDarkMode}></DarkMode>
+      <Navbar darkmode={darkMode}></Navbar>
+      <CvIcon darkMode={darkMode}></CvIcon>
+      <div className={`Contact-Container ${darkMode ? 'Contact-Container-night' : ''}`}>
           <div className="title">
-               <p>İLETİŞİM</p>
+               <p className={`contact-title ${darkMode ? 'contact-title-night' : ''}`}>İLETİŞİM</p>
                <div className='contact-border'></div>
           </div>
           <form action="https://formspree.io/f/xyyrkzwq" method="post">
                <div>
-                    <label htmlFor="name">İsim</label>
-                    <input type="text" id="name" name="name" placeholder='Giriniz...'/>
+                    <label className={`contact-label ${darkMode ? 'contact-label-night' : ''}`} htmlFor="name">İsim</label>
+                    <input className={`contact-input ${darkMode ? 'contact-input-night' : ''}`} type="text" id="name" name="name" placeholder='Giriniz...'/>
                </div>
                <div>
-                    <label htmlFor="email">Email</label>
-                    <input type="email" id="email" name="email" placeholder='Giriniz...'/>
+                    <label className={`contact-label ${darkMode ? 'contact-label-night' : ''}`} htmlFor="email">Email</label>
+                    <input className={`contact-input ${darkMode ? 'contact-input-night' : ''}`} type="email" id="email" name="email" placeholder='Giriniz...'/>
                </div>
                <div>
-                    <label htmlFor="text">Mesajınız</label>
-                    <textarea name="text" id="text" cols="70" rows="10" placeholder='Giriniz...'></textarea>
+                    <label className={`contact-label ${darkMode ? 'contact-label-night' : ''}`} htmlFor="text">Mesajınız</label>
+                    <textarea className={`contact-texteria ${darkMode ? 'contact-texteria-night' : ''}`} name="text" id="text" cols="70" rows="10" placeholder='Giriniz...'></textarea>
                </div>
-               <button type="submit">Gönder</button>
+               <button className={`contact-button ${darkMode ? 'contact-button-night' : ''}`} type="submit">Gönder</button>
           </form>
-          <footer>
+          <footer className={`footer ${darkMode ? 'footer-night' : ''}`}>
                <div className='second1'>
                     <p className='motivation'>“ İyileşiyorum, Güçleniyorum, Gelişiyorum ”</p>
                     <div className='social-media'>

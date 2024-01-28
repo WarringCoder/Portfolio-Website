@@ -10,7 +10,7 @@ import {useDarkMode} from '../../context/DarkModeContext'
 
 
 function Certificate() {
-    const { darkMode, toggleDarkMode } = useDarkMode();
+    const { darkMode } = useDarkMode();
 
   return (
     <div className={`Full-Container ${darkMode ? 'Full-Container-Night' : ''}`}>

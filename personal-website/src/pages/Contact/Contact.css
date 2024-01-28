@@ -4,6 +4,10 @@
     padding-top: 11rem;
     background-color: #EEEEEE;
 }
+.Contact-Container-night
+{
+    background: #19181B;
+}
 
 .Contact-Container form
 {
@@ -11,7 +15,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 2.3rem;
+    gap: 2.9rem;
 }
 
 .Contact-Container form div
@@ -21,7 +25,7 @@
     gap: 0.6rem;
 }
 
-.Contact-Container form div label
+.contact-label
 {
     color: rgba(0, 0, 0, 0.80);
     font-family: 'Exo 2';
@@ -31,8 +35,12 @@
     line-height: normal;
     padding-left: 0.15rem;
 }
+.contact-label-night
+{
+    color: #FFFFFF;
+}
 
-.Contact-Container form div input
+.contact-input
 {
     width: 39rem;
     height: 2.625rem;
@@ -41,14 +49,18 @@
     background: #FFFFFF;
     padding-left: 0.8rem;
 }
+.contact-input-night
+{
+    background: #dbdbdb;
+}
 
-.Contact-Container form div input::placeholder
+.contact-input::placeholder
 {
     font-size: 0.70rem;
     opacity: 0.34;
 }
 
-form :nth-child(3) textarea
+.contact-texteria
 {
     width: 39rem;
     height: 13.5rem;
@@ -58,22 +70,37 @@ form :nth-child(3) textarea
     padding-left: 0.8rem;
     padding-top: 1rem;
 }
+.contact-texteria-night
+{
+    border: 0.1rem solid rgba(0, 0, 0, 0.204);
+    background: #dbdbdb;
+}
 
-.Contact-Container form div textarea::placeholder
+form :nth-child(3) label
+{
+    padding-left: 0rem;
+}
+
+.contact-texteria::placeholder
 {
     font-size: 0.60rem;
     opacity: 0.34;
 }
 
-.Contact-Container form div textarea:focus
+.contact-texteria:focus
 {
     outline: none;
     border: 0.1rem solid #29A8AB;
-    box-shadow: 0 0 0.2rem #29A8AB;
-   
+    box-shadow: 0 0 0.2rem #29A8AB;   
+}
+.contact-texteria-night:focus
+{
+    border: 0.12rem solid #29A8AB;
+    box-shadow: 0 0 0.21rem #227f81;  
+    box-shadow: inset 0 0 0.34rem #000000ac;
 }
 
-.Contact-Container form button
+.contact-button
 {
     width: 11.875rem;
     height: 3.5rem;
@@ -92,8 +119,7 @@ form :nth-child(3) textarea
     padding-bottom: 0.15rem;
     transition: 0.2s;
 }
-
-.Contact-Container form button:hover
+.contact-button:hover
 {
     background-color: inherit;
     color: #29A8AB;
@@ -101,10 +127,42 @@ form :nth-child(3) textarea
     cursor: pointer;
 }
 
+.contact-button-night 
+{
+    background: #29a9abd5;
+    border: 2.1px solid #22929666;
+    color: #ffffffe3;
+}
+.contact-button-night:hover
+{
+    background-color: inherit;
+    color: #29A8AB;
+    box-shadow: 0 0 0.9rem #2bb0b3;
+    cursor: pointer;
+}
+
+.contact-title
+{
+    color: #000000;
+    text-align: center;
+    font-family: "Exo 2";
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+}
+.contact-title.contact-title-night
+{
+    color: #DDDDDDF2;
+}
+
 .contact-border
 {
+    width: 3rem;
+    height: 0.3rem;
     background-color: #29A8AB !important;
-}
+} 
 
 .Contact-Container form div input:focus
 {
@@ -115,14 +173,19 @@ form :nth-child(3) textarea
 }
 
 
-.Contact-Container footer
+.footer
 {
     height: 18.125rem;
     background: #251E3E;
     margin-top: 11rem;
     position: relative;
 }
-
+.footer-night 
+{
+    background-color: #000000 !important;
+    box-shadow: inset 0 0 0.7rem #19181B;
+    opacity: 0.8;
+}
 .Contact-Container footer .second1
 {
     display: flex;
@@ -181,11 +244,12 @@ form :nth-child(3) textarea
 .footer-border
 {
     width: 71.875rem;
-    height: 0.01875rem;
+    height: 0.02300rem;
     background: rgba(255, 255, 255, 0.85);
     position: absolute;
     left: 3.28rem;
     bottom: 7rem;
+    opacity: 0.34;
 }
 
 .producer
@@ -208,4 +272,6 @@ form :nth-child(3) textarea
 a{
     height: 1.3rem;
 }
+
+
 

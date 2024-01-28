@@ -18,23 +18,27 @@ import javascript from '../../images/JavaScript.png'
 import music from '../../images/music4.png'
 import space from '../../images/galaxy.png'
 import DarkMode from '../../components/DarkMode'
+import {useDarkMode} from '../../context/DarkModeContext'
+import CvIcon from '../../components/CvIcon'
 
 
 function Projects() {
+    const { darkMode, toggleDarkMode } = useDarkMode();
   return (
     <>
-      <Navbar></Navbar>
-      <DarkMode></DarkMode>
-      <div className='Projects-container'>
+      <DarkMode darkMode={darkMode} setDarkMode={toggleDarkMode}></DarkMode>
+      <Navbar darkmode={darkMode}></Navbar>
+      <CvIcon darkMode={darkMode}></CvIcon>
+      <div className={`Projects-container ${darkMode ? 'Projects-container-night' : ''}`}>
           <div className="Content-container">  
             <div className="play-projects">
-              <p className='second-title-play'>Oyun</p>
+              <p className={`second-title-play ${darkMode ? 'second-title-play-night' : ''}`}>Oyun</p>
               <a 
                href='https://warringcoder.github.io/JavaScript/Medium_Project/Music_Player/index.html' 
                target="_blank" 
                rel="noopener noreferrer"
                >
-              <div className="project-box">
+              <div className={`project-box ${darkMode  ? 'project-box-night' : ''}`}>
                 <div className="stars-container-play">
                   <img src={star} alt="star" />
                   <img src={star} alt="star" />
@@ -52,7 +56,7 @@ function Projects() {
                target="_blank" 
                rel="noopener noreferrer"
                >
-              <div className="project-box">
+              <div className={`project-box ${darkMode  ? 'project-box-night' : ''}`}>
                 <div className="stars-container-play">
                   <img src={star} alt="star" />
                   <img src={star} alt="star" />
@@ -70,7 +74,7 @@ function Projects() {
                target="_blank" 
                rel="noopener noreferrer"
                >
-              <div className="project-box">
+              <div className={`project-box ${darkMode  ? 'project-box-night' : ''}`}>
                 <div className="stars-container-play">
                   <img src={star} alt="star" />
                   <img src={star} alt="star" />
@@ -88,7 +92,7 @@ function Projects() {
                target="_blank" 
                rel="noopener noreferrer"
                >
-              <div className="project-box">
+              <div className={`project-box ${darkMode  ? 'project-box-night' : ''}`}>
                     <div className="stars-container-play">
                          <img src={star} alt="star" />
                          <img src={star} alt="star" />
@@ -113,13 +117,13 @@ function Projects() {
               <img src={Line6} alt="Line" />     
             </div>
             <div className="public-projects">
-              <p className='second-title-public'>Genel</p>
+              <p className={`second-title-play ${darkMode ? 'second-title-play-night' : ''}`}>Genel</p>
               <a 
                href='https://warringcoder.github.io/JavaScript/Medium_Project/Music_Player/index.html' 
                target="_blank" 
                rel="noopener noreferrer"
                >
-              <div className="project-box">
+              <div className={`project-box ${darkMode  ? 'project-box-night' : ''}`}>
                     <div className="stars-container-public">
                          <img src={star} alt="star" />
                          <img src={star} alt="star" />   
@@ -137,7 +141,7 @@ function Projects() {
                target="_blank" 
                rel="noopener noreferrer"
                >
-              <div className="project-box">
+              <div className={`project-box ${darkMode  ? 'project-box-night' : ''}`}>
                     <div className="stars-container-public">
                          <img src={star} alt="star" />
                          <img src={star} alt="star" />
@@ -155,7 +159,7 @@ function Projects() {
                target="_blank" 
                rel="noopener noreferrer"
                >
-              <div className="project-box">
+              <div className={`project-box ${darkMode  ? 'project-box-night' : ''}`}>
                     <div className="stars-container-public">
                          <img src={star} alt="star" />
                          <img src={star} alt="star" />
@@ -173,7 +177,7 @@ function Projects() {
                target="_blank" 
                rel="noopener noreferrer"
                >
-                    <div className="project-box">
+                    <div className={`project-box ${darkMode  ? 'project-box-night' : ''}`}>
                          <div className="stars-container-public">
                               <img src={star} alt="star" />
                               <img src={star} alt="star" />
