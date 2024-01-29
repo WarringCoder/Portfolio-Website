@@ -5,17 +5,44 @@
     left: 5rem; 
     z-index: 9999999;
 }
-
-.cv-container:hover
+@media only screen and (max-width: 625px)
 {
-    animation: cv 2.7s infinite;
-    cursor:pointer;   
+    .cv-container
+    {
+        position: absolute;
+        top: 1.5rem;
+        left: 8.1%;
+        z-index: 9999999;
+    }
 }
 
 .cv
 {
     width: 2.625rem;
     height: 2.625rem;   
+}
+@media only screen and (max-width: 625px)
+{
+    .cv
+    {
+        width: 2.3rem;
+        height: 2.3rem;   
+    }
+}
+
+
+.cv-container:hover
+{
+    animation: cv 2.7s infinite;
+    cursor:pointer;   
+}
+@media only screen and (max-width: 625px)
+{
+    .cv-container:hover
+    {
+        animation: none;
+        cursor: none;   
+    }
 }
 
 @keyframes cv

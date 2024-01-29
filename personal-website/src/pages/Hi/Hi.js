@@ -9,6 +9,7 @@ import Navbar from '../../components/Navbar'
 import DarkMode from '../../components/DarkMode'
 import CvIcon from '../../components/CvIcon'
 import {useDarkMode} from '../../context/DarkModeContext'
+import menu_bar from '../../images/menu-burger.png'
 
 
 function Hi() {
@@ -19,6 +20,10 @@ function Hi() {
         <DarkMode darkMode={darkMode} setDarkMode={toggleDarkMode}></DarkMode>
         <Navbar darkmode={darkMode}></Navbar>
         <CvIcon darkMode={darkMode}></CvIcon>
+        <div className="menu-bar-container"k>
+            <img className='menu-bar' src={menu_bar} alt="menu-bar"/>
+        </div>
+        <div className="responsive-menu"></div>
         <div  className={`home-container ${darkMode ? 'home-container-night' : ''}`} >
             <div className="Social-Media-Container">
                 <a href='https://github.com/WarringCoder' target="_blank" rel="noopener noreferrer">
@@ -56,9 +61,13 @@ function Hi() {
                     </div>
                 </NavLink>
             </div>
+            <div className="responsive-title-container">
+                <p className='responsive-title'>Merhaba!</p>
+                <div></div>
+            </div>
             <div className={`introducing-personal ${darkMode ? 'introducing-personal-night' : ''}`}>
-                <p className='hi-name'>
-                    Merhaba! Ben İshak
+                <p className='hi-name-container'>
+                    <p className='hi-name'>Merhaba!</p> <p className='hi-name'>Ben İshak</p>
                 </p>
                 <p className={`hi-text ${darkMode ? 'hi-text-night' : ''}`}>
                     Uzman olduğum alan Front-End Web. React / React Native Developer olarak çalışıyorum. Front-End geliştirmede profesyonel işler çıkartabiliyorum. Aynı zamanda Figma, Canva gibi araçlar ile tasarımlar oluşturuyorum. Sosyal Medya yönetimi konusunda deneyimliyim. Düzenli olarak içerik üretiyorum...
