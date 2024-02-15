@@ -1,3 +1,7 @@
+.Full-Container-Skills
+{
+    background-color: #EEEEEE;
+}
 .Full-Container-Skills-Night
 {
     background: #19181B;
@@ -11,6 +15,15 @@
     gap: 20rem;
     height: 100vh;
 }
+@media only screen and (max-width: 625px) 
+{
+    .skills-container-1
+    {
+        flex-direction: column;
+        gap: 3rem;
+        margin-top: 8rem;
+    }
+}
 
 .skill-container
 {
@@ -23,6 +36,15 @@
     margin-top: 2rem;
     margin-left: 1.13rem;
 }
+@media only screen and (max-width: 625px) 
+{
+    .skill-container
+    {
+        margin-left:0 ;
+
+    }
+}
+
 
 .skill-container img
 {
@@ -45,6 +67,16 @@
     z-index: 999;
     margin-top: 4rem;
 }
+@media only screen and (max-width: 625px) 
+{
+    .inventory
+    {
+        width: 20rem;
+        padding-bottom: 5rem;
+
+    }
+}
+
 .inventory.inventory-night
 {
     background: #8b8b8bfc;
@@ -72,6 +104,16 @@
         box-shadow: -3px -3px 9px 1px rgba(0, 0, 0, 0.13) inset, 3px 3px 9px 1px rgba(0, 0, 0, 0.13) inset;
         z-index: 999;
         margin-top: 4rem;
+}
+
+@media only screen and (max-width: 625px) 
+{
+    .learning
+    {
+        width: 20rem;
+        padding-bottom: 5rem;
+
+    }
 }
 .learning.learning-night
 {
@@ -110,6 +152,14 @@
     right: 49.5rem;
     top: 28rem;
 }
+@media only screen and (max-width: 625px) 
+{
+    .harvest
+    {
+        display: none;
+
+    }
+}
 
 .harvest :nth-child(1)
 {
@@ -136,7 +186,6 @@
     top:40rem;
     animation: downarrow 7s infinite;
 }
-
 @keyframes downarrow
 {
     0%{transform: translate(0,0rem);}
@@ -151,6 +200,86 @@
     90%{transform: translate(0,-1.5rem);}
     100%{transform: translate(0,0rem);}
 }
+@media only screen and (max-width: 625px) 
+{
+    .Down-Arrow
+    {
+        display: none;
+    }
+}
+
+.chain1
+{
+    width: 3rem;
+    display: none;
+    transform: rotate(-45deg);
+}
+.chain2
+{
+    width: 3rem;
+    display: none;
+    transform: rotate(-45deg);
+}
+
+.chain3
+{
+    width: 3rem;
+    display: none;
+    transform: rotate(-45deg);
+}
+
+.chain4
+{
+    width: 3rem;
+    display: none;
+    transform: rotate(-45deg);
+}
+
+.chain5
+{
+    width: 3rem;
+    display: none;
+    transform: rotate(-45deg);
+}
+
+@media only screen and (max-width: 625px) 
+{
+    .chain1
+    {
+        display:inherit;
+        position: absolute;
+        top: 31rem;
+        right: 45%;
+    }
+    .chain2
+    {
+        display:inherit;
+        position: absolute;
+        top: 34rem;
+        right: 45%;
+    }
+    .chain3
+    {
+        display:inherit;
+        position: absolute;
+        top: 36rem;
+        right: 45%;
+    }
+    .chain4
+    {
+        display:inherit;
+        position: absolute;
+        top: 38rem;
+        right: 45%;
+    }
+    .chain5
+    {
+        display:inherit;
+        position: absolute;
+        top: 40rem;
+        right: 45%;
+    }
+}
 
 .skills-container-2
 {
@@ -163,6 +292,13 @@
     flex-direction: column;
     padding-bottom: 5rem;
     padding-top: 3.5rem;
+}
+@media only screen and (max-width: 625px) 
+{
+    .skills-container-2
+    {
+       padding-bottom: 8rem;
+    }
 }
 .skills-container-2.skills-container-2-night
 {
@@ -180,6 +316,16 @@
     margin: 0;
     text-align: center;
 }
+@media only screen and (max-width: 625px) 
+{
+    .title-experience
+    {
+        font-size: 2rem;
+        margin-bottom: -4rem;
+        margin-top: 11rem;
+    }
+}
+
 .title-experience.title-experience-night
 {
     color: rgba(221, 221, 221, 0.90);
@@ -193,6 +339,14 @@
     flex-wrap: wrap;
     gap: 4rem;
     width: 62.5rem;
+}
+@media only screen and (max-width: 625px) 
+{
+    .experience-container
+    {
+        width: 80%;
+        gap: 2.3rem;
+    }
 }
 
 .experience
@@ -215,6 +369,8 @@
     line-height: normal;
     margin-bottom: 0;
 }
+
+
 .experience-title.experience-title-night
 {
     color: rgba(221, 221, 221, 0.60);
@@ -229,6 +385,14 @@
     box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
     position: relative;
 }
+@media only screen and (max-width: 625px) 
+{
+    .bottom-box
+    {
+        width: 6.5rem;
+        height: 2.9rem;
+    }
+}
 
 .bottom-box p
 {
@@ -242,6 +406,14 @@
     font-style: normal;
     font-weight: 500;
 }
+@media only screen and (max-width: 625px) 
+{
+    .bottom-box p
+    {
+        font-size: 0.81rem;
+        padding-right: 0.6rem;
+    }
+}
 
 .top-box
 {
@@ -253,6 +425,15 @@
     box-shadow: 2px 0px 3px 0px rgba(0, 0, 0, 0.25);
     top: 0;
 }
+@media only screen and (max-width: 625px) 
+{
+    .top-box
+    {
+        width: 5rem;
+        height: 2.9rem;
+    }
+}
+
 .top-box.top-box-night
 {
     background: #29A8AB;
@@ -262,80 +443,193 @@
 {
     width: 6.525rem;
 }
+@media only screen and (max-width: 625px) 
+{
+    .experience-container :nth-child(3) .top-box
+    {
+        width: 4.6rem;
+    }
+}
 
 .experience-container :nth-child(3) .bottom-box p
 {
     padding-right: 1.34rem;
+}
+@media only screen and (max-width: 625px) 
+{
+    .experience-container :nth-child(3) .bottom-box p
+    {
+        padding-right: 0.75rem;
+    }
 }
 
 .experience-container :nth-child(4) .top-box
 {
     width: 6.525rem;
 }
+@media only screen and (max-width: 625px) 
+{
+    .experience-container :nth-child(4) .top-box
+    {
+        width: 4.6rem;
+    }
+}
 
 .experience-container :nth-child(4) .bottom-box p
 {
     padding-right: 1.34rem;
+}
+@media only screen and (max-width: 625px) 
+{
+    .experience-container :nth-child(4) .bottom-box p
+    {
+        padding-right: 0.75rem;
+    }
 }
 
 .experience-container :nth-child(5) .top-box
 {
     width: 6rem;
 }
+@media only screen and (max-width: 625px) 
+{
+    .experience-container :nth-child(5) .top-box
+    {
+        width: 4.2rem;
+    }
+}
 
 .experience-container :nth-child(5) .bottom-box p
 {
     padding-right: 1.64rem;
+}
+@media only screen and (max-width: 625px) 
+{
+    .experience-container :nth-child(5) .bottom-box p
+    {
+        padding-right: 1rem;
+    }
 }
 
 .experience-container :nth-child(7) .top-box
 {
     width: 3rem;
 }
+@media only screen and (max-width: 625px) 
+{
+    .experience-container :nth-child(7) .top-box
+    {
+        width: 3rem;
+    }
+}
+
 
 .experience-container :nth-child(7) .bottom-box p
 {
     padding-right: 3.5rem;
+}
+@media only screen and (max-width: 625px) 
+{
+    .experience-container :nth-child(7) .bottom-box p
+    {
+        padding-right: 1.5rem;
+    }
 }
 
 .experience-container :nth-child(8) .top-box
 {
     width: 6rem;
 }
+@media only screen and (max-width: 625px) 
+{
+    .experience-container :nth-child(8) .top-box
+    {
+        width: 4.2rem;
+    }
+}
 
 .experience-container :nth-child(8) .bottom-box p
 {
     padding-right: 1.64rem;
+}
+@media only screen and (max-width: 625px) 
+{
+    .experience-container :nth-child(8) .bottom-box p
+    {
+        padding-right: 1rem;
+    }
 }
 
 .experience-container :nth-child(9) .top-box
 {
     width: 6.525rem;
 }
+@media only screen and (max-width: 625px) 
+{
+    .experience-container :nth-child(9) .top-box
+    {
+        width: 4.6rem;
+    }
+}
 
 .experience-container :nth-child(9) .bottom-box p
 {
     padding-right: 1.34rem;
+}
+@media only screen and (max-width: 625px) 
+{
+    .experience-container :nth-child(9) .bottom-box p
+    {
+        padding-right: 0.75rem;
+    }
 }
 
 .experience-container :nth-child(10) .top-box
 {
     width: 6rem;
 }
+@media only screen and (max-width: 625px) 
+{
+    .experience-container :nth-child(10) .top-box
+    {
+        width: 4.2rem;
+    }
+}
 
 .experience-container :nth-child(10) .bottom-box p
 {
     padding-right: 1.64rem;
+}
+@media only screen and (max-width: 625px) 
+{
+    .experience-container :nth-child(10) .bottom-box p
+    {
+        padding-right: 0.81rem;
+    }
 }
 
 .experience-container :nth-child(11) .top-box
 {
     width: 6.525rem;
 }
+@media only screen and (max-width: 625px) 
+{
+    .experience-container :nth-child(11) .top-box
+    {
+        width: 4.6rem;
+    }
+}
 
 .experience-container :nth-child(11) .bottom-box p
 {
     padding-right: 1.34rem;
+}
+@media only screen and (max-width: 625px) 
+{
+    .experience-container :nth-child(11) .bottom-box p
+    {
+        padding-right: 0.75rem;
+    }
 }
 
 .experience-container :nth-child(12) .top-box
@@ -348,3 +642,8 @@
     padding-right: 4rem;
 }
 
+.skills-responsive-title
+{
+    margin-left: 33.3%;
+    margin-top: 1%;
+}

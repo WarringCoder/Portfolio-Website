@@ -1,4 +1,7 @@
-import React from 'react'
+import { useState, useEffect, useRef } from 'react'
+import {NavLink} from "react-router-dom";
+import menu_bar from '../../images/menu-burger.png'
+import close from '../../images/close.png'
 import Navbar from '../../components/Navbar'
 import './Skills.css'
 import farmer from '../../images/farmer.png'
@@ -19,16 +22,77 @@ import Downarrow from '../../images/down-arrow.png'
 import DarkMode from '../../components/DarkMode'
 import {useDarkMode} from '../../context/DarkModeContext'
 import CvIcon from '../../components/CvIcon'
+import Chain from '../../images/chain.png'
 
 
 
 function Skills() {
     const { darkMode, toggleDarkMode } = useDarkMode();
+        const [ responsiveBar, setResponsiveBar ] = useState(false);
+    const menuRef = useRef(null);
+    const ResponsiveMenu = () =>
+    {
+        setResponsiveBar(!responsiveBar);
+    }
+
+    const handleOuitsideClick = (event) =>
+    {
+        if (menuRef.current && !menuRef.current.contains(event.target)) 
+        {
+            setResponsiveBar(true);
+        }
+    }
+
+    useEffect(() =>
+    {
+        document.addEventListener('mousedown', handleOuitsideClick)
+
+        return() =>
+        {
+            document.removeEventListener('mousedown', handleOuitsideClick)
+        }
+    }, [])
   return (
     <>
       <DarkMode darkMode={darkMode} setDarkMode={toggleDarkMode}></DarkMode>
       <Navbar darkmode={darkMode}></Navbar>
       <CvIcon darkMode={darkMode}></CvIcon>
+       <div onClick={ResponsiveMenu} className='menu-bar-container'>
+            <img className='menu-bar' src={menu_bar} alt="menu-bar"/>
+        </div>
+        <div ref={menuRef} className={`responsive-menu ${responsiveBar ? '' : 'responsive-menu-visible'}`}>
+            <div className="menu-navbar">
+                <img className='menu-close' src={close} alt="close" onClick={ResponsiveMenu}/>
+                <p className='menu-text'>iyileşiyorum...</p>
+            </div>
+            <div className='menu-navbar-bottom-border'></div>
+            <div className="menu-content">
+                <ul>
+                    <li>
+                        <NavLink to="/"><p>Merhaba</p></NavLink>
+                    </li>
+                     <li>
+                        <NavLink to="/about"><p>Hakkımda</p></NavLink>
+                    </li>
+                     <li>
+                        <NavLink to="/skills"><p>Yeteneklerim</p></NavLink>
+                    </li>
+                     <li>
+                        <NavLink to="/projects"><p>Projelerim</p></NavLink>
+                    </li>
+                     <li>
+                        <NavLink to="/lifecycle"><p>Yaşam Döngüm</p></NavLink>
+                    </li>
+                     <li>
+                        <NavLink to="/contact"><p>İletişim</p></NavLink>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div className="responsive-title-container skills-responsive-title">
+                <p className='responsive-title '>Yeteneklerim</p>
+                <div></div>
+        </div>
       <div className={`Full-Container-Skills ${darkMode ? 'Full-Container-Skills-Night' : ''}`}>
         <div className="Container">
           <div className="skills-container-1">
@@ -60,6 +124,11 @@ function Skills() {
                   </div>
               </div>
               <img className='Down-Arrow' src={Downarrow} alt="DownArrow"/>
+              <img src={Chain} alt="chain" className="chain1" />
+              <img src={Chain} alt="chain" className="chain2" />
+              <img src={Chain} alt="chain" className="chain3" />
+              <img src={Chain} alt="chain" className="chain4" />
+              <img src={Chain} alt="chain" className="chain5" />
           </div>
           <div className={`skills-container-2 ${darkMode ? 'skills-container-2-night' : ''}`}>
               <p className={`title-experience ${darkMode ? 'title-experience-night' : ''}`}>Tecrübe Puanlarım</p>

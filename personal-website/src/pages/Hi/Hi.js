@@ -17,10 +17,9 @@ function Hi() {
     const { darkMode, toggleDarkMode } = useDarkMode();
     const [ responsiveBar, setResponsiveBar ] = useState(false);
     const menuRef = useRef(null);
-    const ResponsiveMenu = () =>
-    {
-        setResponsiveBar(!responsiveBar);
-    }
+   const ResponsiveMenu = () => {
+    setResponsiveBar(!responsiveBar);
+}
 
     const handleOuitsideClick = (event) =>
     {
@@ -39,6 +38,11 @@ function Hi() {
             document.removeEventListener('mousedown', handleOuitsideClick)
         }
     }, [])
+
+    const closeMenu = () => {
+        setResponsiveBar(false); // Burada responsiveBar'ı false olarak ayarlamalısınız.
+    };
+
   return (
     <>
         
@@ -57,22 +61,22 @@ function Hi() {
             <div className="menu-content">
                 <ul>
                     <li>
-                        <NavLink to="/"><p>Merhaba</p></NavLink>
+                        <NavLink to="/" onClick={closeMenu}><p>Merhaba</p></NavLink>
                     </li>
                      <li>
-                        <NavLink to="/about"><p>Hakkımda</p></NavLink>
+                        <NavLink to="/about" onClick={closeMenu}><p>Hakkımda</p></NavLink>
                     </li>
                      <li>
-                        <NavLink to="/skills"><p>Yeteneklerim</p></NavLink>
+                        <NavLink to="/skills" onClick={closeMenu}><p>Yeteneklerim</p></NavLink>
                     </li>
                      <li>
-                        <NavLink to="/projects"><p>Projelerim</p></NavLink>
+                        <NavLink to="/projects" onClick={closeMenu}><p>Projelerim</p></NavLink>
                     </li>
                      <li>
-                        <NavLink to="/lifecycle"><p>Yaşam Döngüm</p></NavLink>
+                        <NavLink to="/lifecycle" onClick={closeMenu}><p>Yaşam Döngüm</p></NavLink>
                     </li>
                      <li>
-                        <NavLink to="/contact"><p>İletişim</p></NavLink>
+                        <NavLink to="/contact" onClick={closeMenu}><p>İletişim</p></NavLink>
                     </li>
                 </ul>
             </div>

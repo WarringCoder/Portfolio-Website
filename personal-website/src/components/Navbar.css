@@ -17,6 +17,18 @@
     transition: 0.2s;
 }
 
+@media only screen and (max-width: 625px) 
+{
+    .active
+    {
+        color: rgba(37, 141, 143, 0.80) !important;
+        border-radius: none !important;
+        background-color: unset!important;
+        padding: 0 !important;
+        text-decoration: none;
+    }
+}
+
 .active.active-night
 {
     background: rgba(37, 141, 143, 0.80);
@@ -73,7 +85,14 @@
     box-shadow: 0 0 0.3rem rgba(0, 0, 0, 0.873);
     margin-top: -0.5rem;
 }
+@media only screen and (max-width: 625px) 
+{
 
+    .NavbarContainer .Navbar .ull.scrolled
+    {
+        margin-top: 0rem;
+    }
+}
 
 
 .ull.scrolled.ull.scrolled-night

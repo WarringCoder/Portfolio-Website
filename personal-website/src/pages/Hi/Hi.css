@@ -363,3 +363,24 @@
   overflow: hidden;
 }
 
+
+.menu-content ul
+{
+    padding: 0;
+
+}
+.menu-content ul li
+{ 
+    border-bottom: solid 0.08rem #29A8AB;
+    list-style: none;
+    padding-left: 2rem;
+    padding-top: 0.27rem;
+    padding-bottom: 0.27rem;
+}
+.menu-content ul li a
+{
+    text-decoration: none;
+    color: #ffffffca;
+    width: 100%;
+}
+

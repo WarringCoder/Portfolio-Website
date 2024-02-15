@@ -3,6 +3,14 @@
     background-color: #EEEEEE;
     height: 100vh;
 }
+@media only screen and (max-width: 625px) 
+{
+    .About-Container
+    {        
+        padding-bottom: 7rem; 
+    }
+}
+
 .About-Container.About-Container-Night
 {
     background: #19181B;
@@ -16,6 +24,14 @@
     align-items: center;
     gap: 0.8rem;
     padding-bottom: 3rem;
+}
+
+@media only screen and (max-width: 625px) 
+{
+    .title
+    {        
+        display: none; 
+    }
 }
 
 
@@ -55,6 +71,15 @@
     padding-top:12.5rem ;
 }
 
+@media only screen and (max-width: 625px) 
+{
+    .content-about
+    {
+        padding-top:10rem;
+    }
+}
+
+
 .about-text
 {
     margin: 0;
@@ -66,6 +91,14 @@
     font-weight: 400;
     line-height: normal;
 }
+@media only screen and (max-width: 625px) 
+{
+    .about-text 
+    {
+        width: 80%;
+    }
+}
+
 .about-text.about-text-night
 {
     color: #f5f5f5a8;
@@ -77,6 +110,14 @@
     padding-top: 4rem;
     display: flex;
     gap: 3rem;
+}
+@media only screen and (max-width: 625px) 
+{
+    .button-group
+    {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 .button-group a
@@ -111,6 +152,21 @@
     cursor: pointer;
 }
 
+@media only screen and (max-width: 625px) 
+{
+    .about-button
+    {
+        width: 14rem;
+    }
+}
+.about-button:hover
+{
+    background-color: inherit;
+    color: #251E3E;
+    box-shadow: 0 0 0.4rem #4130796b;
+    cursor: pointer;
+}
+
 .about-button.about-button-night
 {
     background-color: #29A8ABB2;
@@ -122,5 +178,10 @@
     color: #ffffffc6;
     box-shadow: 0 0 0.5rem #29a9abef;
     cursor: pointer;
+}
+
+.about-responsive-title
+{
+    margin-left: 37.5%;
 }
 
