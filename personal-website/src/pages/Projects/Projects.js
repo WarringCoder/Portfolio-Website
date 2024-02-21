@@ -106,7 +106,7 @@ function Projects() {
             <div className="play-projects">
               <p className={`second-title-play ${darkMode ? 'second-title-play-night' : ''}`}>Oyun</p>
               <a 
-               href='https://warringcoder.github.io/JavaScript/Medium_Project/Music_Player/index.html' 
+               href='#' 
                target="_blank" 
                rel="noopener noreferrer"
                >
@@ -124,7 +124,7 @@ function Projects() {
               </div>
               </a>
               <a 
-               href='https://warringcoder.github.io/JavaScript/Medium_Project/Music_Player/index.html' 
+               href='#' 
                target="_blank" 
                rel="noopener noreferrer"
                >
@@ -142,7 +142,7 @@ function Projects() {
               </div>
               </a>
               <a 
-               href='https://warringcoder.github.io/JavaScript/Medium_Project/Music_Player/index.html' 
+               href='#' 
                target="_blank" 
                rel="noopener noreferrer"
                >
@@ -160,7 +160,7 @@ function Projects() {
               </div>
               </a>  
               <a 
-               href='https://warringcoder.github.io/JavaScript/Medium_Project/Music_Player/index.html' 
+               href='#' 
                target="_blank" 
                rel="noopener noreferrer"
                >
@@ -178,7 +178,7 @@ function Projects() {
               </div>
               </a>
               <a 
-               href='https://warringcoder.github.io/JavaScript/Medium_Project/Music_Player/index.html' 
+               href='#' 
                target="_blank" 
                rel="noopener noreferrer"
               >
@@ -196,7 +196,7 @@ function Projects() {
               </div>
               </a>
               <a 
-               href='https://warringcoder.github.io/JavaScript/Medium_Project/Music_Player/index.html' 
+               href='#' 
                target="_blank" 
                rel="noopener noreferrer"
                >
@@ -214,7 +214,7 @@ function Projects() {
               </div>
               </a>
               <a 
-               href='https://warringcoder.github.io/JavaScript/Medium_Project/Music_Player/index.html' 
+               href='#' 
                target="_blank" 
                rel="noopener noreferrer"
                >
@@ -232,7 +232,7 @@ function Projects() {
               </div>
               </a>
               <a 
-               href='https://warringcoder.github.io/JavaScript/Medium_Project/Music_Player/index.html' 
+               href='#' 
                target="_blank" 
                rel="noopener noreferrer"
                >
@@ -250,7 +250,7 @@ function Projects() {
               </div>
               </a>
               <a 
-               href='https://warringcoder.github.io/JavaScript/Medium_Project/Music_Player/index.html' 
+               href='#' 
                target="_blank" 
                rel="noopener noreferrer"
                >
@@ -290,7 +290,7 @@ function Projects() {
             <div className="public-projects">
               <p className={`second-title-play ${darkMode ? 'second-title-play-night' : ''}`}>Genel</p>
               <a 
-               href='https://warringcoder.github.io/JavaScript/Medium_Project/Music_Player/index.html' 
+               href='#' 
                target="_blank" 
                rel="noopener noreferrer"
                >
@@ -308,7 +308,7 @@ function Projects() {
               </div>
               </a>
               <a 
-               href='https://warringcoder.github.io/JavaScript/Medium_Project/Music_Player/index.html' 
+               href='#' 
                target="_blank" 
                rel="noopener noreferrer"
                >
@@ -326,7 +326,7 @@ function Projects() {
               </div>
               </a>
               <a 
-               href='https://warringcoder.github.io/JavaScript/Medium_Project/Music_Player/index.html' 
+               href='#' 
                target="_blank" 
                rel="noopener noreferrer"
                >
@@ -362,7 +362,7 @@ function Projects() {
                     </div>
                </a>
               <a 
-               href='https://warringcoder.github.io/JavaScript/Medium_Project/Music_Player/index.html' 
+               href='#' 
                target="_blank" 
                rel="noopener noreferrer"
                >
@@ -380,7 +380,7 @@ function Projects() {
               </div>
               </a>
                <a 
-               href='https://warringcoder.github.io/JavaScript/Medium_Project/Music_Player/index.html' 
+               href='#' 
                target="_blank" 
                rel="noopener noreferrer"
                >
@@ -398,7 +398,7 @@ function Projects() {
                     </div>
                </a>
                <a 
-               href='https://warringcoder.github.io/JavaScript/Medium_Project/Music_Player/index.html' 
+               href='#' 
                target="_blank" 
                rel="noopener noreferrer"
                >
@@ -416,7 +416,7 @@ function Projects() {
                     </div>
                </a>
                <a 
-               href='https://warringcoder.github.io/JavaScript/Medium_Project/Music_Player/index.html' 
+               href='#' 
                target="_blank" 
                rel="noopener noreferrer"
                >
@@ -434,7 +434,7 @@ function Projects() {
                     </div>
                </a>
                <a 
-               href='https://warringcoder.github.io/JavaScript/Medium_Project/Music_Player/index.html' 
+               href='#' 
                target="_blank" 
                rel="noopener noreferrer"
                >
