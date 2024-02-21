@@ -17,6 +17,13 @@
     align-items: center;
     gap: 2.9rem;
 }
+@media only screen and (max-width: 625px) 
+{
+    .Contact-Container form
+    {
+     gap: 2rem;
+    }
+}
 
 .Contact-Container form div
 {
@@ -35,6 +42,14 @@
     line-height: normal;
     padding-left: 0.15rem;
 }
+@media only screen and (max-width: 625px) 
+{
+    .contact-label
+    {
+     font-size: 1.1100rem;
+    }
+}
+
 .contact-label-night
 {
     color: #FFFFFF;
@@ -48,6 +63,13 @@
     border: 0.1rem solid rgba(0, 0, 0, 0.204);
     background: #FFFFFF;
     padding-left: 0.8rem;
+}
+@media only screen and (max-width: 625px) 
+{
+    .contact-input
+    {
+     width: 19rem;
+    }
 }
 .contact-input-night
 {
@@ -69,6 +91,14 @@
     background: #FFFFFF;
     padding-left: 0.8rem;
     padding-top: 1rem;
+}
+@media only screen and (max-width: 625px) 
+{
+    .contact-texteria
+    {
+     width: 19rem;
+     height: 10rem;
+    }
 }
 .contact-texteria-night
 {
@@ -180,6 +210,14 @@ form :nth-child(3) label
     margin-top: 11rem;
     position: relative;
 }
+@media only screen and (max-width: 625px) 
+{
+    .footer
+    {
+     width: 100%;
+     height: 36%;
+    }
+}
 .footer-night 
 {
     background-color: #000000 !important;
@@ -194,6 +232,14 @@ form :nth-child(3) label
     gap: 32rem;
     padding-top: 2.6rem;
 }
+@media only screen and (max-width: 625px) 
+{
+    .Contact-Container footer .second1
+    {
+     gap: 0;
+     flex-direction: column;
+    }
+}
 
 .motivation
 {
@@ -205,6 +251,15 @@ form :nth-child(3) label
     letter-spacing: 0.07438rem;
     padding-top: 1rem;
 }
+@media only screen and (max-width: 625px) 
+{
+    .motivation
+    {
+        font-size: 0.7rem;
+        opacity: 0.7;
+        padding-top: 0;
+    }
+}
 
 .social-media
 {
@@ -213,6 +268,14 @@ form :nth-child(3) label
     align-items:flex-start;
     flex-direction: column;
     gap: 1.1rem;
+}
+@media only screen and (max-width: 625px) 
+{
+    .social-media
+    {
+        align-items: center;
+        margin-top: 2.9rem;
+    }
 }
 
 .social-media :nth-child(1)
@@ -251,6 +314,14 @@ form :nth-child(3) label
     bottom: 7rem;
     opacity: 0.34;
 }
+@media only screen and (max-width: 625px) 
+{
+    .footer-border
+    {
+        width: 80%;
+        left: 9%;
+    }
+}
 
 .producer
 {
@@ -271,6 +342,11 @@ form :nth-child(3) label
 }
 a{
     height: 1.3rem;
+}
+
+.contact-responsive-title
+{
+    margin-left: 39.8%;
 }
 
 

@@ -74,9 +74,13 @@ function LifeCycle() {
                 </ul>
             </div>
         </div>
+        <div className="responsive-title-container lifecycle-responsive-title">
+                <p className='responsive-title '>Lifecycle</p>
+                <div></div>
+        </div>
       <div>
           <div className={`LifeCycle ${darkMode ? 'LifeCycle-night' : ''}`}>
-               <img src={worker} alt="worker" />
+               <img className='workerr' src={worker} alt="worker" />
                <div>
                     <img src={settings} alt="settings"/>
                     <p className={`LifeCycle-text ${darkMode ? 'LifeCycle-text-night' : ''}`}>YAKINDA...</p>

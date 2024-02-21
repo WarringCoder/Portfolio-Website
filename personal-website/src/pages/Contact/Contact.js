@@ -80,6 +80,10 @@ function Contact() {
                 </ul>
             </div>
         </div>
+        <div className="responsive-title-container contact-responsive-title">
+                <p className='responsive-title '>Contact</p>
+                <div></div>
+        </div>
       <div className={`Contact-Container ${darkMode ? 'Contact-Container-night' : ''}`}>
           <div className="title">
                <p className={`contact-title ${darkMode ? 'contact-title-night' : ''}`}>İLETİŞİM</p>

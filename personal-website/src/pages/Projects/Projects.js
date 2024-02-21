@@ -97,6 +97,10 @@ function Projects() {
                 </ul>
             </div>
         </div>
+        <div className="responsive-title-container projects-responsive-title">
+                <p className='responsive-title '>Projelerim</p>
+                <div></div>
+        </div>
       <div className={`Projects-container ${darkMode ? 'Projects-container-night' : ''}`}>
           <div className="Content-container">  
             <div className="play-projects">
@@ -296,7 +300,7 @@ function Projects() {
                          <img src={star} alt="star" />   
                          <img src={star} alt="star" />
                     </div>
-                    <div className="project-text-content">
+                    <div className="project-text-content text-content-public">
                          <p>Atların Sesi</p>
                          <p>Türkiye’nin atlar üzerine açılmış en iyi web sitesine hoşgeldiniz. Atlara karşı bir hayranlık mı...</p>
                     </div>
@@ -314,7 +318,7 @@ function Projects() {
                          <img src={star} alt="star" />
                          <img src={star} alt="star" />
                     </div>
-                    <div className="project-text-content">
+                    <div className="project-text-content text-content-public">
                          <p>UZAY</p>
                          <p>Detaylar Yakında...</p>
                     </div>
@@ -332,11 +336,11 @@ function Projects() {
                          <img src={star} alt="star" />
                          <img src={star} alt="star" />
                     </div>
-                    <div className="project-text-content">
+                    <div className="project-text-content text-content-public">
                          <p>30 Days Javascript</p>
                          <p>30 gün boyunca 30 JavaScript projesi yapmak mı? Üstelik hızımı almayıp 30 günün üstüne çıkmak mı? Birbirinden...</p>
                     </div>
-                    <img src={javascript} alt="memory_game" />
+                    <img className='rotate' src={javascript} alt="memory_game" />
               </div>
               </a>
               <a 
@@ -350,11 +354,11 @@ function Projects() {
                               <img src={star} alt="star" />
                               <img src={star} alt="star" />
                          </div>
-                         <div className="project-text-content">
+                         <div className="project-text-content text-content-public" >
                               <p>Yazılımcıların Müziği </p>
                               <p>Ekrana baktıkça yazılıma olan sevdanızın artacağı müzik çalar uygulamamı hemen inceleyin :] </p>
                          </div>
-                         <img src={music} alt="memory_game" />
+                         <img className='rotate' src={music} alt="memory_game" />
                     </div>
                </a>
               <a 
@@ -368,7 +372,7 @@ function Projects() {
                          <img src={star} alt="star" />
                          <img src={star} alt="star" />
                     </div>
-                    <div className="project-text-content">
+                    <div className="project-text-content text-content-public">
                          <p>E-Ticaret Sitesi</p>
                          <p>Kullanışlı ve kaliteli bir e-ticaret sitesi mi arıyorsunuz. Kullanıcı dostu arayüz... </p>
                     </div>
@@ -386,11 +390,11 @@ function Projects() {
                               <img src={star} alt="star" />
                               <img src={star} alt="star" />
                          </div>
-                         <div className="project-text-content">
+                         <div className="project-text-content text-content-public">
                               <p>Film Kutusu </p>
                               <p>Aradığınız filmi, destansı tasarımıyla bu sitede bulabilirsiniz. Hemen tıkla ve filmini bul!] </p>
                          </div>
-                         <img src={movie} alt="memory_game" />
+                         <img className='rotate' src={movie} alt="memory_game" />
                     </div>
                </a>
                <a 
@@ -404,11 +408,11 @@ function Projects() {
                               <img src={star} alt="star" />
                               <img src={star} alt="star" />
                          </div>
-                         <div className="project-text-content">
+                         <div className="project-text-content text-content-public">
                               <p>Youtube Clone </p>
                               <p>Youtube platformunu birebir clonlamakla kalmayıp daha iyisini tasarlayarak meydan okudum :) </p>
                          </div>
-                         <img src={youtube_project} alt="memory_game" />
+                         <img className='rotate' src={youtube_project} alt="memory_game" />
                     </div>
                </a>
                <a 
@@ -422,11 +426,11 @@ function Projects() {
                               <img src={star} alt="star" />
                               <img src={star} alt="star" />
                          </div>
-                         <div className="project-text-content">
+                         <div className="project-text-content text-content-public">
                               <p>İnstagram Clone </p>
                               <p>İnstagram platformunu birebir clonlamakla kalmayıp daha iyisini tasarlayarak meydan okudum :) </p>
                          </div>
-                         <img src={instagram_project} alt="memory_game" />
+                         <img className='rotate' src={instagram_project} alt="memory_game" />
                     </div>
                </a>
                <a 
@@ -440,11 +444,11 @@ function Projects() {
                               <img src={star} alt="star" />
                               <img src={star} alt="star" />
                          </div>
-                         <div className="project-text-content">
+                         <div className="project-text-content text-content-public">
                               <p>Twitter Clone </p>
                               <p>Twitter platformunu birebir clonlamakla kalmayıp daha iyisini tasarlayarak meydan okudum :) </p>
                          </div>
-                         <img src={twitter_project} alt="memory_game" />
+                         <img className='rotate' src={twitter_project} alt="memory_game" />
                     </div>
                </a>
             </div>

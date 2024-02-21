@@ -7,6 +7,15 @@
     gap: 7rem;
     padding-top: 5rem;
 }
+@media only screen and (max-width: 625px) 
+{
+    .LifeCycle
+    {
+     gap: 0;
+     flex-direction: column;
+    }
+}
+
 .LifeCycle-night
 {
     background: #19181B;
@@ -27,12 +36,28 @@
     gap: 0rem;
     margin-top: 3.3rem;
 }
+@media only screen and (max-width: 625px) 
+{
+    .LifeCycle :nth-child(2)
+    {
+      margin-top: 0;
+    }
+}
+
 
 .LifeCycle :nth-child(2) :nth-child(1)
 {
     width: 8.375rem;
     height: 8.375rem;
     animation: lifecycle 6s infinite alternate;
+}
+@media only screen and (max-width: 625px) 
+{
+    .LifeCycle :nth-child(2) :nth-child(1)
+    {
+      width: 8rem;
+      height: 8rem;
+    }
 }
 
 @keyframes lifecycle
@@ -53,8 +78,31 @@
     letter-spacing: 0.13125rem;
     padding-left: 2.8rem;
 }
+@media only screen and (max-width: 625px) 
+{
+    .LifeCycle-text
+    {
+      width: 7rem;
+      height: 7rem;
+      margin-top: 0 !important;
+    }
+}
 
 .LifeCycle-text-night
 {
     color: rgba(255, 255, 255, 0.85);
+}
+
+@media only screen and (max-width: 625px) 
+{
+    .workerr
+    {
+     display: none;
+    }
+}
+
+.lifecycle-responsive-title
+{
+    margin-left: 38.05%;
+    margin-top: 0.1rem;
 }
