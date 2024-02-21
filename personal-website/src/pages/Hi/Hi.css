@@ -213,9 +213,9 @@
     border-radius: 50%;
     border: 0.1rem solid #251E3E;
     margin-right: 4.1em;
-    background-image: url('../../images/portfolio-picture.png');
+    background-image: url('../../images/9135.jpg');
     background-position: center;
-    background-size: cover;
+    background-size:cover;
 }
 @media only screen and (max-width: 625px) 
 {
@@ -230,6 +230,7 @@
 .portfolio-picture.portfolio-picture-night
 {
     border: 0.08rem solid #b1b1b17c;
+    box-shadow: inset 0 0 18rem rgba(0, 0, 0, 0.663) ;
 }
 
 .responsive-title-container

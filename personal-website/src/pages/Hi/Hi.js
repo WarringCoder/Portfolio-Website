@@ -127,7 +127,7 @@ function Hi() {
                     <p className='hi-name'>Merhaba!</p> <p className='hi-name'>Ben İshak</p>
                 </p>
                 <p className={`hi-text ${darkMode ? 'hi-text-night' : ''}`}>
-                    Uzman olduğum alan Front-End Web. React / React Native Developer olarak çalışıyorum. Front-End geliştirmede profesyonel işler çıkartabiliyorum. Aynı zamanda Figma, Canva gibi araçlar ile tasarımlar oluşturuyorum. Sosyal Medya yönetimi konusunda deneyimliyim. Düzenli olarak içerik üretiyorum...
+                    Uzman olduğum alan Front-End Web. React Developer olarak bir çok projeye imza attım. Front-End geliştirmede profesyonel işler çıkartabiliyorum. Aynı zamanda Figma, Canva gibi araçlar ile tasarımlar oluşturuyorum. Sosyal Medya yönetimi konusunda deneyimliyim. Düzenli olarak içerik üretiyorum...
                 </p>
             </div>
             <div className={`portfolio-picture ${darkMode ? 'portfolio-picture-night' : ''}`}></div>
