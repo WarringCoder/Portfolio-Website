@@ -17,12 +17,13 @@ import Git from '../../images/git.png'
 import GitHub from '../../images/github.png'
 import Figma from '../../images/figma.png'
 import Canva from '../../images/Canva.png'
+import ReactNative from '../../images/ReactNative.png'
 import Downarrow from '../../images/down-arrow.png'
 import DarkMode from '../../components/DarkMode'
 import {useDarkMode} from '../../context/DarkModeContext'
 import CvIcon from '../../components/CvIcon'
 import Chain from '../../images/chain.png'
-import vue from '../../images/vue.png'
+
 
 
 
@@ -119,8 +120,8 @@ function Skills() {
               <div className={`learning ${darkMode ? 'learning-night' : ''}`}>
                   <p className='skill-title'>YÜKLENİYOR</p>
                   <div className="skill">
-                    <img src={vue} alt="VueJS" />
-                    <p>Vue Js</p>
+                    <img src={ReactNative} alt="ReactNative" />
+                    <p>React Native</p>
                   </div>
               </div>
               <img className='Down-Arrow' src={Downarrow} alt="DownArrow"/>
