@@ -348,7 +348,7 @@ function Projects() {
                target="_blank" 
                rel="noopener noreferrer"
                >
-                    <div className={`project-box ${darkMode  ? 'project-box-night' : ''}`}>
+                    <div  className={`project-box ${darkMode  ? 'project-box-night' : ''}`}>
                          <div className="stars-container-public">
                               <img src={star} alt="star" />
                               <img src={star} alt="star" />
