@@ -11,6 +11,7 @@ import CvIcon from '../../components/CvIcon'
 import {useDarkMode} from '../../context/DarkModeContext'
 import menu_bar from '../../images/menu-burger.png'
 import close from '../../images/close.png'
+import chess from '../../images/chess.png'
 
 
 function Hi() {
@@ -131,6 +132,7 @@ function Hi() {
                 </p>
             </div>
             <div className={`portfolio-picture ${darkMode ? 'portfolio-picture-night' : ''}`}></div>
+            <div className='chess' > <img src={chess} alt="chess" /> </div>
         </div>
     </>
   )
