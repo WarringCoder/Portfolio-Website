@@ -154,7 +154,7 @@
 @media only screen and (max-width: 625px)     
 {
     .hi-name-container :nth-child(1)
-    {        
+    {         
         display: none;
     }
 }
