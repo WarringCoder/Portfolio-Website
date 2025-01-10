@@ -398,7 +398,7 @@ function Projects() {
                     </div>
                </a>
                <a 
-               href='https://youtubeclonewarringcoder.netlify.app' 
+               href='https://youtubeclonewarringcoder.netlify.app/' 
                target="_blank" 
                rel="noopener noreferrer"
                >
